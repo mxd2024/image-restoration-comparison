@@ -7,10 +7,11 @@
     "left": "input",
     "right": "result",
     "initial_region": "full",
-    "initial_scale": 0.25,
+    "initial_scale": "width",
     "initial_boundary_percent": 50,
     "coordinate_system": "native xyxy; no LR x4 transform; legacy ROI.zoom ignored",
-    "updated_utc": "2026-10-22T15:10:43.459139+00:00"
+    "updated_utc": "2026-10-22T15:10:43.459139+00:00",
+    "initial_method": "codiff"
   },
   "entries": [
     {
