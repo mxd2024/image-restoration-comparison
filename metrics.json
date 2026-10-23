@@ -1,0 +1,4836 @@
+{
+  "pixel_protocol": {
+    "color": "decoded RGB8 code values; no ICC/color correction",
+    "psnr": "float64 native RGB, 10*log10(255^2 / MSE); exact match is explicit +infinity flag",
+    "ssim": "skimage.metrics.structural_similarity; channel_axis=2; data_range=255; native RGB float64; default uniform 7x7 window",
+    "border_crop": 0,
+    "resize": false,
+    "alignment": false,
+    "quality_verdict": "not implied by metrics"
+  },
+  "lpips": {
+    "status": "measured",
+    "package": "lpips",
+    "package_version": "0.1.4",
+    "net": "alex",
+    "version": "0.1",
+    "device": "cpu",
+    "spatial": false,
+    "normalization": "RGB8 float32 /127.5 -1; NCHW; no resize",
+    "weights": [
+      {
+        "sha256": "df73285e35b22355a2df87cdb6b70b343713b667eddbda73e1977e0c860835c0"
+      },
+      {
+        "sha256": "7be5be791159472b1fbf3c69796f7cb30dca7ad8466c2df70058c37116cdee02"
+      }
+    ]
+  },
+  "APSNR": {
+    "status": "unmeasured; no proxy used"
+  },
+  "DBI": {
+    "status": "unmeasured; no proxy used"
+  },
+  "inputs": [
+    {
+      "item": "realistic-q10",
+      "condition": "jpeg-q10",
+      "qf": 10,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 30.51365034996015,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7891360225810186
+        },
+        {
+          "id": "shape",
+          "box": [
+            1020,
+            140,
+            1520,
+            680
+          ],
+          "psnr_db": 28.876974719318717,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7828497198133744
+        },
+        {
+          "id": "edge",
+          "box": [
+            520,
+            940,
+            1160,
+            1300
+          ],
+          "psnr_db": 29.48739440103921,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7974615274815214
+        },
+        {
+          "id": "texture",
+          "box": [
+            1360,
+            600,
+            1720,
+            980
+          ],
+          "psnr_db": 27.506131379276088,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7828591079585477
+        },
+        {
+          "id": "gradient",
+          "box": [
+            1024,
+            96,
+            1408,
+            480
+          ],
+          "psnr_db": 30.41245466588334,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7860203495689965
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1412,
+          662,
+          1668,
+          918
+        ],
+        "resize": false,
+        "value": 0.23407039046287537
+      }
+    },
+    {
+      "item": "realistic-q20",
+      "condition": "jpeg-q20",
+      "qf": 20,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 33.75397153143376,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8154635322887525
+        },
+        {
+          "id": "shape",
+          "box": [
+            1020,
+            140,
+            1520,
+            680
+          ],
+          "psnr_db": 31.5696451189471,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8251970291884455
+        },
+        {
+          "id": "edge",
+          "box": [
+            520,
+            940,
+            1160,
+            1300
+          ],
+          "psnr_db": 32.739773686513935,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.850447686819268
+        },
+        {
+          "id": "texture",
+          "box": [
+            1360,
+            600,
+            1720,
+            980
+          ],
+          "psnr_db": 30.366479033894343,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8467931159224761
+        },
+        {
+          "id": "gradient",
+          "box": [
+            1024,
+            96,
+            1408,
+            480
+          ],
+          "psnr_db": 33.00431216188622,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8081671843934943
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1412,
+          662,
+          1668,
+          918
+        ],
+        "resize": false,
+        "value": 0.12806464731693268
+      }
+    },
+    {
+      "item": "realistic-q40",
+      "condition": "jpeg-q40",
+      "qf": 40,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 35.72150990904229,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8637217021941437
+        },
+        {
+          "id": "shape",
+          "box": [
+            1020,
+            140,
+            1520,
+            680
+          ],
+          "psnr_db": 33.984922333869434,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.87826058865046
+        },
+        {
+          "id": "edge",
+          "box": [
+            520,
+            940,
+            1160,
+            1300
+          ],
+          "psnr_db": 35.30159006163219,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8965498363051728
+        },
+        {
+          "id": "texture",
+          "box": [
+            1360,
+            600,
+            1720,
+            980
+          ],
+          "psnr_db": 32.89095257603705,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8990783187992918
+        },
+        {
+          "id": "gradient",
+          "box": [
+            1024,
+            96,
+            1408,
+            480
+          ],
+          "psnr_db": 35.10332270703743,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8595353408829783
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1412,
+          662,
+          1668,
+          918
+        ],
+        "resize": false,
+        "value": 0.06241753697395325
+      }
+    },
+    {
+      "item": "realistic-q60",
+      "condition": "jpeg-q60",
+      "qf": 60,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 37.50673810907446,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9110425655226563
+        },
+        {
+          "id": "shape",
+          "box": [
+            1020,
+            140,
+            1520,
+            680
+          ],
+          "psnr_db": 35.76719099502142,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9185936557246448
+        },
+        {
+          "id": "edge",
+          "box": [
+            520,
+            940,
+            1160,
+            1300
+          ],
+          "psnr_db": 37.094511697085395,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9306381503181645
+        },
+        {
+          "id": "texture",
+          "box": [
+            1360,
+            600,
+            1720,
+            980
+          ],
+          "psnr_db": 34.67160186166397,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9327833866476584
+        },
+        {
+          "id": "gradient",
+          "box": [
+            1024,
+            96,
+            1408,
+            480
+          ],
+          "psnr_db": 36.95435621489776,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9079899212939205
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1412,
+          662,
+          1668,
+          918
+        ],
+        "resize": false,
+        "value": 0.03207928314805031
+      }
+    },
+    {
+      "item": "realistic-clean",
+      "condition": "normal-control",
+      "qf": null,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": null,
+          "psnr_is_positive_infinity": true,
+          "ssim": 1.0
+        },
+        {
+          "id": "shape",
+          "box": [
+            1020,
+            140,
+            1520,
+            680
+          ],
+          "psnr_db": null,
+          "psnr_is_positive_infinity": true,
+          "ssim": 1.0
+        },
+        {
+          "id": "edge",
+          "box": [
+            520,
+            940,
+            1160,
+            1300
+          ],
+          "psnr_db": null,
+          "psnr_is_positive_infinity": true,
+          "ssim": 1.0
+        },
+        {
+          "id": "texture",
+          "box": [
+            1360,
+            600,
+            1720,
+            980
+          ],
+          "psnr_db": null,
+          "psnr_is_positive_infinity": true,
+          "ssim": 1.0
+        },
+        {
+          "id": "gradient",
+          "box": [
+            1024,
+            96,
+            1408,
+            480
+          ],
+          "psnr_db": null,
+          "psnr_is_positive_infinity": true,
+          "ssim": 1.0
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1412,
+          662,
+          1668,
+          918
+        ],
+        "resize": false,
+        "value": 0.0
+      }
+    },
+    {
+      "item": "oil-q10",
+      "condition": "jpeg-q10",
+      "qf": 10,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 23.633972822870977,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6692388946354301
+        },
+        {
+          "id": "shape",
+          "box": [
+            1100,
+            580,
+            1740,
+            1240
+          ],
+          "psnr_db": 23.14752299347388,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6610854453279393
+        },
+        {
+          "id": "edge",
+          "box": [
+            1592,
+            432,
+            1968,
+            1000
+          ],
+          "psnr_db": 23.765646161225483,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6043383815064618
+        },
+        {
+          "id": "texture",
+          "box": [
+            832,
+            60,
+            1460,
+            440
+          ],
+          "psnr_db": 25.06812083368817,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6886905252750531
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1018,
+          122,
+          1274,
+          378
+        ],
+        "resize": false,
+        "value": 0.26395589113235474
+      }
+    },
+    {
+      "item": "oil-q20",
+      "condition": "jpeg-q20",
+      "qf": 20,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 25.756238025928187,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7894795883593874
+        },
+        {
+          "id": "shape",
+          "box": [
+            1100,
+            580,
+            1740,
+            1240
+          ],
+          "psnr_db": 25.230979831380665,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7827617061215731
+        },
+        {
+          "id": "edge",
+          "box": [
+            1592,
+            432,
+            1968,
+            1000
+          ],
+          "psnr_db": 25.721793628727898,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7491065662042833
+        },
+        {
+          "id": "texture",
+          "box": [
+            832,
+            60,
+            1460,
+            440
+          ],
+          "psnr_db": 27.2821096514045,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8079652276652576
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1018,
+          122,
+          1274,
+          378
+        ],
+        "resize": false,
+        "value": 0.18226152658462524
+      }
+    },
+    {
+      "item": "oil-q40",
+      "condition": "jpeg-q40",
+      "qf": 40,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 27.87474285362238,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8662727883250922
+        },
+        {
+          "id": "shape",
+          "box": [
+            1100,
+            580,
+            1740,
+            1240
+          ],
+          "psnr_db": 27.281025981862893,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8595174329566903
+        },
+        {
+          "id": "edge",
+          "box": [
+            1592,
+            432,
+            1968,
+            1000
+          ],
+          "psnr_db": 27.778932257793972,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8410523825057309
+        },
+        {
+          "id": "texture",
+          "box": [
+            832,
+            60,
+            1460,
+            440
+          ],
+          "psnr_db": 29.503489964377874,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8814351563837787
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1018,
+          122,
+          1274,
+          378
+        ],
+        "resize": false,
+        "value": 0.08156564831733704
+      }
+    },
+    {
+      "item": "oil-q60",
+      "condition": "jpeg-q60",
+      "qf": 60,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 29.375097551688185,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9039200301405407
+        },
+        {
+          "id": "shape",
+          "box": [
+            1100,
+            580,
+            1740,
+            1240
+          ],
+          "psnr_db": 28.757056947119853,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8984898728113722
+        },
+        {
+          "id": "edge",
+          "box": [
+            1592,
+            432,
+            1968,
+            1000
+          ],
+          "psnr_db": 29.21016453225341,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8874245959829038
+        },
+        {
+          "id": "texture",
+          "box": [
+            832,
+            60,
+            1460,
+            440
+          ],
+          "psnr_db": 30.917027020897848,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9163428158009775
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1018,
+          122,
+          1274,
+          378
+        ],
+        "resize": false,
+        "value": 0.046735115349292755
+      }
+    },
+    {
+      "item": "oil-clean",
+      "condition": "normal-control",
+      "qf": null,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": null,
+          "psnr_is_positive_infinity": true,
+          "ssim": 1.0
+        },
+        {
+          "id": "shape",
+          "box": [
+            1100,
+            580,
+            1740,
+            1240
+          ],
+          "psnr_db": null,
+          "psnr_is_positive_infinity": true,
+          "ssim": 1.0
+        },
+        {
+          "id": "edge",
+          "box": [
+            1592,
+            432,
+            1968,
+            1000
+          ],
+          "psnr_db": null,
+          "psnr_is_positive_infinity": true,
+          "ssim": 1.0
+        },
+        {
+          "id": "texture",
+          "box": [
+            832,
+            60,
+            1460,
+            440
+          ],
+          "psnr_db": null,
+          "psnr_is_positive_infinity": true,
+          "ssim": 1.0
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1018,
+          122,
+          1274,
+          378
+        ],
+        "resize": false,
+        "value": 0.0
+      }
+    },
+    {
+      "item": "abstract-q10",
+      "condition": "jpeg-q10",
+      "qf": 10,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 31.73597999283038,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7723492081874527
+        },
+        {
+          "id": "shape",
+          "box": [
+            120,
+            1672,
+            640,
+            2000
+          ],
+          "psnr_db": 29.1971127716447,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6956507305832612
+        },
+        {
+          "id": "edge",
+          "box": [
+            112,
+            712,
+            288,
+            1200
+          ],
+          "psnr_db": 28.754207887018342,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6936516594727574
+        },
+        {
+          "id": "texture",
+          "box": [
+            840,
+            752,
+            1344,
+            1208
+          ],
+          "psnr_db": 34.39529064235809,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8183399270295032
+        },
+        {
+          "id": "signature",
+          "box": [
+            1080,
+            1904,
+            1416,
+            2048
+          ],
+          "psnr_db": 27.363577541237248,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7001973497358165
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          964,
+          852,
+          1220,
+          1108
+        ],
+        "resize": false,
+        "value": 0.5532561540603638
+      }
+    },
+    {
+      "item": "abstract-q20",
+      "condition": "jpeg-q20",
+      "qf": 20,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 33.178248640679485,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8102704630846634
+        },
+        {
+          "id": "shape",
+          "box": [
+            120,
+            1672,
+            640,
+            2000
+          ],
+          "psnr_db": 30.709394108413196,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7460834985240448
+        },
+        {
+          "id": "edge",
+          "box": [
+            112,
+            712,
+            288,
+            1200
+          ],
+          "psnr_db": 30.064165472819717,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7545220171203614
+        },
+        {
+          "id": "texture",
+          "box": [
+            840,
+            752,
+            1344,
+            1208
+          ],
+          "psnr_db": 34.9250742702818,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8359027954660804
+        },
+        {
+          "id": "signature",
+          "box": [
+            1080,
+            1904,
+            1416,
+            2048
+          ],
+          "psnr_db": 29.410341031575808,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7602788552850481
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          964,
+          852,
+          1220,
+          1108
+        ],
+        "resize": false,
+        "value": 0.34420526027679443
+      }
+    },
+    {
+      "item": "abstract-q40",
+      "condition": "jpeg-q40",
+      "qf": 40,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 35.21201067680747,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8593594963955944
+        },
+        {
+          "id": "shape",
+          "box": [
+            120,
+            1672,
+            640,
+            2000
+          ],
+          "psnr_db": 32.5122772692318,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.816706476683461
+        },
+        {
+          "id": "edge",
+          "box": [
+            112,
+            712,
+            288,
+            1200
+          ],
+          "psnr_db": 31.641653584968896,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8223663431673346
+        },
+        {
+          "id": "texture",
+          "box": [
+            840,
+            752,
+            1344,
+            1208
+          ],
+          "psnr_db": 37.247473270290655,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8746707831224584
+        },
+        {
+          "id": "signature",
+          "box": [
+            1080,
+            1904,
+            1416,
+            2048
+          ],
+          "psnr_db": 31.054419021856713,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8162909091086363
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          964,
+          852,
+          1220,
+          1108
+        ],
+        "resize": false,
+        "value": 0.1805499792098999
+      }
+    },
+    {
+      "item": "abstract-q60",
+      "condition": "jpeg-q60",
+      "qf": 60,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 36.19554012758841,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8914698049112078
+        },
+        {
+          "id": "shape",
+          "box": [
+            120,
+            1672,
+            640,
+            2000
+          ],
+          "psnr_db": 33.6876697519446,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8562072468878407
+        },
+        {
+          "id": "edge",
+          "box": [
+            112,
+            712,
+            288,
+            1200
+          ],
+          "psnr_db": 32.82928028492266,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8640927906149557
+        },
+        {
+          "id": "texture",
+          "box": [
+            840,
+            752,
+            1344,
+            1208
+          ],
+          "psnr_db": 37.98584463006874,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9029092716261102
+        },
+        {
+          "id": "signature",
+          "box": [
+            1080,
+            1904,
+            1416,
+            2048
+          ],
+          "psnr_db": 32.21304164904508,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8543460610315184
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          964,
+          852,
+          1220,
+          1108
+        ],
+        "resize": false,
+        "value": 0.1026938334107399
+      }
+    },
+    {
+      "item": "abstract-clean",
+      "condition": "normal-control",
+      "qf": null,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": null,
+          "psnr_is_positive_infinity": true,
+          "ssim": 1.0
+        },
+        {
+          "id": "shape",
+          "box": [
+            120,
+            1672,
+            640,
+            2000
+          ],
+          "psnr_db": null,
+          "psnr_is_positive_infinity": true,
+          "ssim": 1.0
+        },
+        {
+          "id": "edge",
+          "box": [
+            112,
+            712,
+            288,
+            1200
+          ],
+          "psnr_db": null,
+          "psnr_is_positive_infinity": true,
+          "ssim": 1.0
+        },
+        {
+          "id": "texture",
+          "box": [
+            840,
+            752,
+            1344,
+            1208
+          ],
+          "psnr_db": null,
+          "psnr_is_positive_infinity": true,
+          "ssim": 1.0
+        },
+        {
+          "id": "signature",
+          "box": [
+            1080,
+            1904,
+            1416,
+            2048
+          ],
+          "psnr_db": null,
+          "psnr_is_positive_infinity": true,
+          "ssim": 1.0
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          964,
+          852,
+          1220,
+          1108
+        ],
+        "resize": false,
+        "value": 0.0
+      }
+    },
+    {
+      "item": "watercolor-q10",
+      "condition": "jpeg-q10",
+      "qf": 10,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            1254,
+            1254
+          ],
+          "psnr_db": 25.54781838075668,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7668844313817664
+        },
+        {
+          "id": "eye",
+          "box": [
+            300,
+            136,
+            400,
+            210
+          ],
+          "psnr_db": 25.029327584990824,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.713183460642608
+        },
+        {
+          "id": "feathers",
+          "box": [
+            176,
+            207,
+            315,
+            315
+          ],
+          "psnr_db": 23.865205607923752,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.73502548576663
+        },
+        {
+          "id": "wash",
+          "box": [
+            485,
+            440,
+            680,
+            610
+          ],
+          "psnr_db": 26.252874990426353,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7845009826276125
+        }
+      ],
+      "lpips": {
+        "roi": "feathers",
+        "box": [
+          176,
+          207,
+          315,
+          315
+        ],
+        "resize": false,
+        "value": 0.22513186931610107
+      }
+    },
+    {
+      "item": "watercolor-q20",
+      "condition": "jpeg-q20",
+      "qf": 20,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            1254,
+            1254
+          ],
+          "psnr_db": 27.801573883815564,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8333799901138638
+        },
+        {
+          "id": "eye",
+          "box": [
+            300,
+            136,
+            400,
+            210
+          ],
+          "psnr_db": 27.198582938354875,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8013908813808509
+        },
+        {
+          "id": "feathers",
+          "box": [
+            176,
+            207,
+            315,
+            315
+          ],
+          "psnr_db": 26.339907743082968,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8279542972285406
+        },
+        {
+          "id": "wash",
+          "box": [
+            485,
+            440,
+            680,
+            610
+          ],
+          "psnr_db": 28.648346308270234,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8404718018020306
+        }
+      ],
+      "lpips": {
+        "roi": "feathers",
+        "box": [
+          176,
+          207,
+          315,
+          315
+        ],
+        "resize": false,
+        "value": 0.0852336660027504
+      }
+    },
+    {
+      "item": "watercolor-q40",
+      "condition": "jpeg-q40",
+      "qf": 40,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            1254,
+            1254
+          ],
+          "psnr_db": 30.009705316947013,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8826534230133531
+        },
+        {
+          "id": "eye",
+          "box": [
+            300,
+            136,
+            400,
+            210
+          ],
+          "psnr_db": 29.44099858021115,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8686727360857
+        },
+        {
+          "id": "feathers",
+          "box": [
+            176,
+            207,
+            315,
+            315
+          ],
+          "psnr_db": 28.79407305525192,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8885490623481327
+        },
+        {
+          "id": "wash",
+          "box": [
+            485,
+            440,
+            680,
+            610
+          ],
+          "psnr_db": 30.804725108905735,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.884032110566633
+        }
+      ],
+      "lpips": {
+        "roi": "feathers",
+        "box": [
+          176,
+          207,
+          315,
+          315
+        ],
+        "resize": false,
+        "value": 0.03732137382030487
+      }
+    },
+    {
+      "item": "watercolor-q60",
+      "condition": "jpeg-q60",
+      "qf": 60,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            1254,
+            1254
+          ],
+          "psnr_db": 31.600881171310892,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9103543072507335
+        },
+        {
+          "id": "eye",
+          "box": [
+            300,
+            136,
+            400,
+            210
+          ],
+          "psnr_db": 30.964514579144343,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9000750379661601
+        },
+        {
+          "id": "feathers",
+          "box": [
+            176,
+            207,
+            315,
+            315
+          ],
+          "psnr_db": 30.483433555857545,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9177153190284876
+        },
+        {
+          "id": "wash",
+          "box": [
+            485,
+            440,
+            680,
+            610
+          ],
+          "psnr_db": 32.21361761902419,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9095480403042892
+        }
+      ],
+      "lpips": {
+        "roi": "feathers",
+        "box": [
+          176,
+          207,
+          315,
+          315
+        ],
+        "resize": false,
+        "value": 0.022632772102952003
+      }
+    },
+    {
+      "item": "watercolor-clean",
+      "condition": "normal-control",
+      "qf": null,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            1254,
+            1254
+          ],
+          "psnr_db": null,
+          "psnr_is_positive_infinity": true,
+          "ssim": 1.0
+        },
+        {
+          "id": "eye",
+          "box": [
+            300,
+            136,
+            400,
+            210
+          ],
+          "psnr_db": null,
+          "psnr_is_positive_infinity": true,
+          "ssim": 1.0
+        },
+        {
+          "id": "feathers",
+          "box": [
+            176,
+            207,
+            315,
+            315
+          ],
+          "psnr_db": null,
+          "psnr_is_positive_infinity": true,
+          "ssim": 1.0
+        },
+        {
+          "id": "wash",
+          "box": [
+            485,
+            440,
+            680,
+            610
+          ],
+          "psnr_db": null,
+          "psnr_is_positive_infinity": true,
+          "ssim": 1.0
+        }
+      ],
+      "lpips": {
+        "roi": "feathers",
+        "box": [
+          176,
+          207,
+          315,
+          315
+        ],
+        "resize": false,
+        "value": 0.0
+      }
+    },
+    {
+      "item": "realistic-band5",
+      "condition": "synthetic-rgb5-banding",
+      "qf": null,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 40.5167330292207,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.945996418914703
+        },
+        {
+          "id": "texture",
+          "box": [
+            1360,
+            600,
+            1720,
+            980
+          ],
+          "psnr_db": 40.50452974987931,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9714395073784639
+        },
+        {
+          "id": "gradient",
+          "box": [
+            1024,
+            96,
+            1408,
+            480
+          ],
+          "psnr_db": 40.47753690442316,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9476081859175635
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1412,
+          662,
+          1668,
+          918
+        ],
+        "resize": false,
+        "value": 0.0028815281111747026
+      }
+    },
+    {
+      "item": "realistic-band4",
+      "condition": "synthetic-rgb4-artificial-posterization-stress",
+      "qf": null,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 34.26276955774513,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8309041277720405
+        },
+        {
+          "id": "texture",
+          "box": [
+            1360,
+            600,
+            1720,
+            980
+          ],
+          "psnr_db": 34.38613048192205,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9052952048213306
+        },
+        {
+          "id": "gradient",
+          "box": [
+            1024,
+            96,
+            1408,
+            480
+          ],
+          "psnr_db": 34.18933778694507,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8320699497125172
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1412,
+          662,
+          1668,
+          918
+        ],
+        "resize": false,
+        "value": 0.018360471352934837
+      }
+    },
+    {
+      "item": "watercolor-band5",
+      "condition": "synthetic-rgb5-banding",
+      "qf": null,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            1254,
+            1254
+          ],
+          "psnr_db": 40.46330592437848,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.96923035375552
+        },
+        {
+          "id": "feathers",
+          "box": [
+            176,
+            207,
+            315,
+            315
+          ],
+          "psnr_db": 40.51327871893462,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9834476441124086
+        },
+        {
+          "id": "wash",
+          "box": [
+            485,
+            440,
+            680,
+            610
+          ],
+          "psnr_db": 40.45682326499086,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9631121922097826
+        }
+      ],
+      "lpips": {
+        "roi": "feathers",
+        "box": [
+          176,
+          207,
+          315,
+          315
+        ],
+        "resize": false,
+        "value": 0.0007120647933334112
+      }
+    }
+  ],
+  "results": [
+    {
+      "item": "realistic-q10",
+      "method": "swinir",
+      "condition": "jpeg-q10",
+      "qf": 10,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 33.27789928134767,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8213513464719974
+        },
+        {
+          "id": "shape",
+          "box": [
+            1020,
+            140,
+            1520,
+            680
+          ],
+          "psnr_db": 31.497407941955295,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8334333554407655
+        },
+        {
+          "id": "edge",
+          "box": [
+            520,
+            940,
+            1160,
+            1300
+          ],
+          "psnr_db": 33.435992834706944,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8688657379440978
+        },
+        {
+          "id": "texture",
+          "box": [
+            1360,
+            600,
+            1720,
+            980
+          ],
+          "psnr_db": 29.893678904508135,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8372329103842034
+        },
+        {
+          "id": "gradient",
+          "box": [
+            1024,
+            96,
+            1408,
+            480
+          ],
+          "psnr_db": 32.52646194369825,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.814473735416939
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1412,
+          662,
+          1668,
+          918
+        ],
+        "resize": false,
+        "value": 0.2736988663673401
+      }
+    },
+    {
+      "item": "realistic-q10",
+      "method": "codiff",
+      "condition": "jpeg-q10",
+      "qf": 10,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 31.40098409526626,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7675774543632911
+        },
+        {
+          "id": "shape",
+          "box": [
+            1020,
+            140,
+            1520,
+            680
+          ],
+          "psnr_db": 28.93833053872495,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7674229027267961
+        },
+        {
+          "id": "edge",
+          "box": [
+            520,
+            940,
+            1160,
+            1300
+          ],
+          "psnr_db": 30.627220632330022,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8033263882065537
+        },
+        {
+          "id": "texture",
+          "box": [
+            1360,
+            600,
+            1720,
+            980
+          ],
+          "psnr_db": 27.205026595671853,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7489928705697769
+        },
+        {
+          "id": "gradient",
+          "box": [
+            1024,
+            96,
+            1408,
+            480
+          ],
+          "psnr_db": 31.10089657623948,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7579933365311208
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1412,
+          662,
+          1668,
+          918
+        ],
+        "resize": false,
+        "value": 0.16211560368537903
+      }
+    },
+    {
+      "item": "realistic-q20",
+      "method": "swinir",
+      "condition": "jpeg-q20",
+      "qf": 20,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 35.325657838547414,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8306297385476076
+        },
+        {
+          "id": "shape",
+          "box": [
+            1020,
+            140,
+            1520,
+            680
+          ],
+          "psnr_db": 33.78900883972311,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8549512898276251
+        },
+        {
+          "id": "edge",
+          "box": [
+            520,
+            940,
+            1160,
+            1300
+          ],
+          "psnr_db": 35.216054221725834,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8833611579774076
+        },
+        {
+          "id": "texture",
+          "box": [
+            1360,
+            600,
+            1720,
+            980
+          ],
+          "psnr_db": 32.24262817867632,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.875415877249539
+        },
+        {
+          "id": "gradient",
+          "box": [
+            1024,
+            96,
+            1408,
+            480
+          ],
+          "psnr_db": 34.88529277828833,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8248829664143492
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1412,
+          662,
+          1668,
+          918
+        ],
+        "resize": false,
+        "value": 0.2012215107679367
+      }
+    },
+    {
+      "item": "realistic-q20",
+      "method": "codiff",
+      "condition": "jpeg-q20",
+      "qf": 20,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 30.928122553563398,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6618284511875072
+        },
+        {
+          "id": "shape",
+          "box": [
+            1020,
+            140,
+            1520,
+            680
+          ],
+          "psnr_db": 28.881013867593857,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7015118787664925
+        },
+        {
+          "id": "edge",
+          "box": [
+            520,
+            940,
+            1160,
+            1300
+          ],
+          "psnr_db": 30.73085759829275,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7602923538707564
+        },
+        {
+          "id": "texture",
+          "box": [
+            1360,
+            600,
+            1720,
+            980
+          ],
+          "psnr_db": 27.692035266719664,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7157379451968655
+        },
+        {
+          "id": "gradient",
+          "box": [
+            1024,
+            96,
+            1408,
+            480
+          ],
+          "psnr_db": 30.193731266237982,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.645260074827243
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1412,
+          662,
+          1668,
+          918
+        ],
+        "resize": false,
+        "value": 0.12140657007694244
+      }
+    },
+    {
+      "item": "realistic-q40",
+      "method": "swinir",
+      "condition": "jpeg-q40",
+      "qf": 40,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 36.89523321930714,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8762242475583643
+        },
+        {
+          "id": "shape",
+          "box": [
+            1020,
+            140,
+            1520,
+            680
+          ],
+          "psnr_db": 35.663931902787866,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8971284398579025
+        },
+        {
+          "id": "edge",
+          "box": [
+            520,
+            940,
+            1160,
+            1300
+          ],
+          "psnr_db": 36.91335859436644,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9143446398372722
+        },
+        {
+          "id": "texture",
+          "box": [
+            1360,
+            600,
+            1720,
+            980
+          ],
+          "psnr_db": 34.40448024908301,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9166738338903482
+        },
+        {
+          "id": "gradient",
+          "box": [
+            1024,
+            96,
+            1408,
+            480
+          ],
+          "psnr_db": 36.48128298437444,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.873229552902199
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1412,
+          662,
+          1668,
+          918
+        ],
+        "resize": false,
+        "value": 0.11201715469360352
+      }
+    },
+    {
+      "item": "realistic-q40",
+      "method": "codiff",
+      "condition": "jpeg-q40",
+      "qf": 40,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 30.76968105744526,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.630327819827761
+        },
+        {
+          "id": "shape",
+          "box": [
+            1020,
+            140,
+            1520,
+            680
+          ],
+          "psnr_db": 29.042755936643427,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6928399287577869
+        },
+        {
+          "id": "edge",
+          "box": [
+            520,
+            940,
+            1160,
+            1300
+          ],
+          "psnr_db": 31.31702773373512,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7547922086647728
+        },
+        {
+          "id": "texture",
+          "box": [
+            1360,
+            600,
+            1720,
+            980
+          ],
+          "psnr_db": 27.96460841175438,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.715039390599452
+        },
+        {
+          "id": "gradient",
+          "box": [
+            1024,
+            96,
+            1408,
+            480
+          ],
+          "psnr_db": 30.29444591065205,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6276040290321635
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1412,
+          662,
+          1668,
+          918
+        ],
+        "resize": false,
+        "value": 0.10125125199556351
+      }
+    },
+    {
+      "item": "realistic-q60",
+      "method": "swinir",
+      "condition": "jpeg-q60",
+      "qf": 60,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 38.33574572496647,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9165323680371097
+        },
+        {
+          "id": "shape",
+          "box": [
+            1020,
+            140,
+            1520,
+            680
+          ],
+          "psnr_db": 36.764116131401046,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9257697872172314
+        },
+        {
+          "id": "edge",
+          "box": [
+            520,
+            940,
+            1160,
+            1300
+          ],
+          "psnr_db": 38.073318143137115,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9383363274622948
+        },
+        {
+          "id": "texture",
+          "box": [
+            1360,
+            600,
+            1720,
+            980
+          ],
+          "psnr_db": 35.5235064143189,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9392376892746458
+        },
+        {
+          "id": "gradient",
+          "box": [
+            1024,
+            96,
+            1408,
+            480
+          ],
+          "psnr_db": 37.83286424062124,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9133081531062471
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1412,
+          662,
+          1668,
+          918
+        ],
+        "resize": false,
+        "value": 0.08897200226783752
+      }
+    },
+    {
+      "item": "realistic-q60",
+      "method": "codiff",
+      "condition": "jpeg-q60",
+      "qf": 60,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 30.926823226501824,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6398236068250976
+        },
+        {
+          "id": "shape",
+          "box": [
+            1020,
+            140,
+            1520,
+            680
+          ],
+          "psnr_db": 29.133420670906716,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6956302751430307
+        },
+        {
+          "id": "edge",
+          "box": [
+            520,
+            940,
+            1160,
+            1300
+          ],
+          "psnr_db": 31.503112468989944,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7572681963963642
+        },
+        {
+          "id": "texture",
+          "box": [
+            1360,
+            600,
+            1720,
+            980
+          ],
+          "psnr_db": 27.955261798199025,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7144925246775496
+        },
+        {
+          "id": "gradient",
+          "box": [
+            1024,
+            96,
+            1408,
+            480
+          ],
+          "psnr_db": 30.38078961757394,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.633857014230207
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1412,
+          662,
+          1668,
+          918
+        ],
+        "resize": false,
+        "value": 0.10066849738359451
+      }
+    },
+    {
+      "item": "realistic-clean",
+      "method": "swinir",
+      "condition": "normal-control",
+      "qf": null,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 40.00587479013623,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.953291596746822
+        },
+        {
+          "id": "shape",
+          "box": [
+            1020,
+            140,
+            1520,
+            680
+          ],
+          "psnr_db": 37.34967487606998,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9483805639037942
+        },
+        {
+          "id": "edge",
+          "box": [
+            520,
+            940,
+            1160,
+            1300
+          ],
+          "psnr_db": 39.07639294231555,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9581542985623005
+        },
+        {
+          "id": "texture",
+          "box": [
+            1360,
+            600,
+            1720,
+            980
+          ],
+          "psnr_db": 36.05024680294338,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9548931858424424
+        },
+        {
+          "id": "gradient",
+          "box": [
+            1024,
+            96,
+            1408,
+            480
+          ],
+          "psnr_db": 39.221203286394875,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.951174096299246
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1412,
+          662,
+          1668,
+          918
+        ],
+        "resize": false,
+        "value": 0.10469048470258713
+      }
+    },
+    {
+      "item": "realistic-clean",
+      "method": "codiff",
+      "condition": "normal-control",
+      "qf": null,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 31.717274747618323,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6908436606085894
+        },
+        {
+          "id": "shape",
+          "box": [
+            1020,
+            140,
+            1520,
+            680
+          ],
+          "psnr_db": 29.60836751245292,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7329715434741718
+        },
+        {
+          "id": "edge",
+          "box": [
+            520,
+            940,
+            1160,
+            1300
+          ],
+          "psnr_db": 32.22287530684515,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7927731533413227
+        },
+        {
+          "id": "texture",
+          "box": [
+            1360,
+            600,
+            1720,
+            980
+          ],
+          "psnr_db": 28.239440679964247,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7430705379168528
+        },
+        {
+          "id": "gradient",
+          "box": [
+            1024,
+            96,
+            1408,
+            480
+          ],
+          "psnr_db": 31.132220559845912,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6842020125955831
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1412,
+          662,
+          1668,
+          918
+        ],
+        "resize": false,
+        "value": 0.08322557061910629
+      }
+    },
+    {
+      "item": "oil-q10",
+      "method": "swinir",
+      "condition": "jpeg-q10",
+      "qf": 10,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 24.984902825403882,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7000212785093968
+        },
+        {
+          "id": "shape",
+          "box": [
+            1100,
+            580,
+            1740,
+            1240
+          ],
+          "psnr_db": 24.439980499510842,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.68705677952412
+        },
+        {
+          "id": "edge",
+          "box": [
+            1592,
+            432,
+            1968,
+            1000
+          ],
+          "psnr_db": 24.884143824665024,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6292779053876059
+        },
+        {
+          "id": "texture",
+          "box": [
+            832,
+            60,
+            1460,
+            440
+          ],
+          "psnr_db": 25.93678145593779,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7143634893246302
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1018,
+          122,
+          1274,
+          378
+        ],
+        "resize": false,
+        "value": 0.38631439208984375
+      }
+    },
+    {
+      "item": "oil-q10",
+      "method": "codiff",
+      "condition": "jpeg-q10",
+      "qf": 10,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 21.12790304688592,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.42722148057327597
+        },
+        {
+          "id": "shape",
+          "box": [
+            1100,
+            580,
+            1740,
+            1240
+          ],
+          "psnr_db": 20.566862075350357,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.400971872360139
+        },
+        {
+          "id": "edge",
+          "box": [
+            1592,
+            432,
+            1968,
+            1000
+          ],
+          "psnr_db": 21.312130874117482,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.35876332405247946
+        },
+        {
+          "id": "texture",
+          "box": [
+            832,
+            60,
+            1460,
+            440
+          ],
+          "psnr_db": 22.47361267828232,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.4423974774435651
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1018,
+          122,
+          1274,
+          378
+        ],
+        "resize": false,
+        "value": 0.15590998530387878
+      }
+    },
+    {
+      "item": "oil-q20",
+      "method": "swinir",
+      "condition": "jpeg-q20",
+      "qf": 20,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 27.13523283942181,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8195139588601404
+        },
+        {
+          "id": "shape",
+          "box": [
+            1100,
+            580,
+            1740,
+            1240
+          ],
+          "psnr_db": 26.54446212681375,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8126211720228734
+        },
+        {
+          "id": "edge",
+          "box": [
+            1592,
+            432,
+            1968,
+            1000
+          ],
+          "psnr_db": 27.034983368240564,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7821764684983101
+        },
+        {
+          "id": "texture",
+          "box": [
+            832,
+            60,
+            1460,
+            440
+          ],
+          "psnr_db": 28.33489079468938,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.830059393014808
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1018,
+          122,
+          1274,
+          378
+        ],
+        "resize": false,
+        "value": 0.24116282165050507
+      }
+    },
+    {
+      "item": "oil-q20",
+      "method": "codiff",
+      "condition": "jpeg-q20",
+      "qf": 20,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 21.525989424461986,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.4645171375175774
+        },
+        {
+          "id": "shape",
+          "box": [
+            1100,
+            580,
+            1740,
+            1240
+          ],
+          "psnr_db": 20.931159527115515,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.44037768804964394
+        },
+        {
+          "id": "edge",
+          "box": [
+            1592,
+            432,
+            1968,
+            1000
+          ],
+          "psnr_db": 21.751491215930436,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.4036572633605922
+        },
+        {
+          "id": "texture",
+          "box": [
+            832,
+            60,
+            1460,
+            440
+          ],
+          "psnr_db": 23.07211023634003,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.47839933912103444
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1018,
+          122,
+          1274,
+          378
+        ],
+        "resize": false,
+        "value": 0.1408214569091797
+      }
+    },
+    {
+      "item": "oil-q40",
+      "method": "swinir",
+      "condition": "jpeg-q40",
+      "qf": 40,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 29.275907962293402,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8908372322834389
+        },
+        {
+          "id": "shape",
+          "box": [
+            1100,
+            580,
+            1740,
+            1240
+          ],
+          "psnr_db": 28.62936247980945,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8846182246371247
+        },
+        {
+          "id": "edge",
+          "box": [
+            1592,
+            432,
+            1968,
+            1000
+          ],
+          "psnr_db": 29.09019150739452,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8690260718297357
+        },
+        {
+          "id": "texture",
+          "box": [
+            832,
+            60,
+            1460,
+            440
+          ],
+          "psnr_db": 30.46623577264598,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8986732425212566
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1018,
+          122,
+          1274,
+          378
+        ],
+        "resize": false,
+        "value": 0.11726401001214981
+      }
+    },
+    {
+      "item": "oil-q40",
+      "method": "codiff",
+      "condition": "jpeg-q40",
+      "qf": 40,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 21.691276991332607,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.48330721050990283
+        },
+        {
+          "id": "shape",
+          "box": [
+            1100,
+            580,
+            1740,
+            1240
+          ],
+          "psnr_db": 21.066184467227767,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.45690034917546996
+        },
+        {
+          "id": "edge",
+          "box": [
+            1592,
+            432,
+            1968,
+            1000
+          ],
+          "psnr_db": 21.901693311065106,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.4260830681488958
+        },
+        {
+          "id": "texture",
+          "box": [
+            832,
+            60,
+            1460,
+            440
+          ],
+          "psnr_db": 23.28132635008576,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.5010327963200282
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1018,
+          122,
+          1274,
+          378
+        ],
+        "resize": false,
+        "value": 0.11731912940740585
+      }
+    },
+    {
+      "item": "oil-q60",
+      "method": "swinir",
+      "condition": "jpeg-q60",
+      "qf": 60,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 30.36144012774585,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9136056790755651
+        },
+        {
+          "id": "shape",
+          "box": [
+            1100,
+            580,
+            1740,
+            1240
+          ],
+          "psnr_db": 29.661413531253448,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.906988450122859
+        },
+        {
+          "id": "edge",
+          "box": [
+            1592,
+            432,
+            1968,
+            1000
+          ],
+          "psnr_db": 30.16284080032028,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8989887756110052
+        },
+        {
+          "id": "texture",
+          "box": [
+            832,
+            60,
+            1460,
+            440
+          ],
+          "psnr_db": 31.67957430628509,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9240445204583471
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1018,
+          122,
+          1274,
+          378
+        ],
+        "resize": false,
+        "value": 0.10881403833627701
+      }
+    },
+    {
+      "item": "oil-q60",
+      "method": "codiff",
+      "condition": "jpeg-q60",
+      "qf": 60,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 21.687115633868178,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.4855987115088902
+        },
+        {
+          "id": "shape",
+          "box": [
+            1100,
+            580,
+            1740,
+            1240
+          ],
+          "psnr_db": 21.045034996062107,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.45636910250345936
+        },
+        {
+          "id": "edge",
+          "box": [
+            1592,
+            432,
+            1968,
+            1000
+          ],
+          "psnr_db": 21.890102502852116,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.4281403134506454
+        },
+        {
+          "id": "texture",
+          "box": [
+            832,
+            60,
+            1460,
+            440
+          ],
+          "psnr_db": 23.245940458588624,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.500332076201537
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1018,
+          122,
+          1274,
+          378
+        ],
+        "resize": false,
+        "value": 0.11948796361684799
+      }
+    },
+    {
+      "item": "oil-clean",
+      "method": "swinir",
+      "condition": "normal-control",
+      "qf": null,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 30.557040887676912,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9177979194101887
+        },
+        {
+          "id": "shape",
+          "box": [
+            1100,
+            580,
+            1740,
+            1240
+          ],
+          "psnr_db": 29.70006039661072,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9078569188281085
+        },
+        {
+          "id": "edge",
+          "box": [
+            1592,
+            432,
+            1968,
+            1000
+          ],
+          "psnr_db": 30.760772491749428,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9156122323806027
+        },
+        {
+          "id": "texture",
+          "box": [
+            832,
+            60,
+            1460,
+            440
+          ],
+          "psnr_db": 33.252730602508784,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9491185709106494
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1018,
+          122,
+          1274,
+          378
+        ],
+        "resize": false,
+        "value": 0.1317826509475708
+      }
+    },
+    {
+      "item": "oil-clean",
+      "method": "codiff",
+      "condition": "normal-control",
+      "qf": null,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 21.635692267858943,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.48337563688571544
+        },
+        {
+          "id": "shape",
+          "box": [
+            1100,
+            580,
+            1740,
+            1240
+          ],
+          "psnr_db": 20.974276015192665,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.4533859369008068
+        },
+        {
+          "id": "edge",
+          "box": [
+            1592,
+            432,
+            1968,
+            1000
+          ],
+          "psnr_db": 21.83116046774426,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.4272092851573681
+        },
+        {
+          "id": "texture",
+          "box": [
+            832,
+            60,
+            1460,
+            440
+          ],
+          "psnr_db": 23.231015472437527,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.4992359483133275
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1018,
+          122,
+          1274,
+          378
+        ],
+        "resize": false,
+        "value": 0.12394049018621445
+      }
+    },
+    {
+      "item": "abstract-q10",
+      "method": "swinir",
+      "condition": "jpeg-q10",
+      "qf": 10,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 32.361596691106804,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7898075381270928
+        },
+        {
+          "id": "shape",
+          "box": [
+            120,
+            1672,
+            640,
+            2000
+          ],
+          "psnr_db": 30.201845257441388,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7134270057000943
+        },
+        {
+          "id": "edge",
+          "box": [
+            112,
+            712,
+            288,
+            1200
+          ],
+          "psnr_db": 29.340539957264888,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7067378517843576
+        },
+        {
+          "id": "texture",
+          "box": [
+            840,
+            752,
+            1344,
+            1208
+          ],
+          "psnr_db": 33.65545366457923,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8237703792860603
+        },
+        {
+          "id": "signature",
+          "box": [
+            1080,
+            1904,
+            1416,
+            2048
+          ],
+          "psnr_db": 29.620345802956155,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7538994271532182
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          964,
+          852,
+          1220,
+          1108
+        ],
+        "resize": false,
+        "value": 0.5713962912559509
+      }
+    },
+    {
+      "item": "abstract-q10",
+      "method": "codiff",
+      "condition": "jpeg-q10",
+      "qf": 10,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 30.744155120772653,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7016077481454097
+        },
+        {
+          "id": "shape",
+          "box": [
+            120,
+            1672,
+            640,
+            2000
+          ],
+          "psnr_db": 27.994360876710445,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6500000993887521
+        },
+        {
+          "id": "edge",
+          "box": [
+            112,
+            712,
+            288,
+            1200
+          ],
+          "psnr_db": 26.951759563947405,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.5995240253594829
+        },
+        {
+          "id": "texture",
+          "box": [
+            840,
+            752,
+            1344,
+            1208
+          ],
+          "psnr_db": 33.32777080766797,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7573874735479952
+        },
+        {
+          "id": "signature",
+          "box": [
+            1080,
+            1904,
+            1416,
+            2048
+          ],
+          "psnr_db": 27.227476529464965,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6803851736476232
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          964,
+          852,
+          1220,
+          1108
+        ],
+        "resize": false,
+        "value": 0.31795498728752136
+      }
+    },
+    {
+      "item": "abstract-q20",
+      "method": "swinir",
+      "condition": "jpeg-q20",
+      "qf": 20,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 34.03499745866993,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8268748293976881
+        },
+        {
+          "id": "shape",
+          "box": [
+            120,
+            1672,
+            640,
+            2000
+          ],
+          "psnr_db": 31.87728792192434,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7641110490521638
+        },
+        {
+          "id": "edge",
+          "box": [
+            112,
+            712,
+            288,
+            1200
+          ],
+          "psnr_db": 30.740450272366203,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7666180493965796
+        },
+        {
+          "id": "texture",
+          "box": [
+            840,
+            752,
+            1344,
+            1208
+          ],
+          "psnr_db": 35.439594894242965,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8501337121992888
+        },
+        {
+          "id": "signature",
+          "box": [
+            1080,
+            1904,
+            1416,
+            2048
+          ],
+          "psnr_db": 31.204670137440928,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7943846868665094
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          964,
+          852,
+          1220,
+          1108
+        ],
+        "resize": false,
+        "value": 0.41530588269233704
+      }
+    },
+    {
+      "item": "abstract-q20",
+      "method": "codiff",
+      "condition": "jpeg-q20",
+      "qf": 20,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 30.918221994995633,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7029592844564756
+        },
+        {
+          "id": "shape",
+          "box": [
+            120,
+            1672,
+            640,
+            2000
+          ],
+          "psnr_db": 27.699159163026476,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6109469821239424
+        },
+        {
+          "id": "edge",
+          "box": [
+            112,
+            712,
+            288,
+            1200
+          ],
+          "psnr_db": 26.847902574979837,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6027861498729835
+        },
+        {
+          "id": "texture",
+          "box": [
+            840,
+            752,
+            1344,
+            1208
+          ],
+          "psnr_db": 33.43728286678922,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7386766322017665
+        },
+        {
+          "id": "signature",
+          "box": [
+            1080,
+            1904,
+            1416,
+            2048
+          ],
+          "psnr_db": 27.502644421044522,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6455314908695448
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          964,
+          852,
+          1220,
+          1108
+        ],
+        "resize": false,
+        "value": 0.14274585247039795
+      }
+    },
+    {
+      "item": "abstract-q40",
+      "method": "swinir",
+      "condition": "jpeg-q40",
+      "qf": 40,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 36.26220076803318,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8761466383580899
+        },
+        {
+          "id": "shape",
+          "box": [
+            120,
+            1672,
+            640,
+            2000
+          ],
+          "psnr_db": 33.462657261858254,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8306009936772787
+        },
+        {
+          "id": "edge",
+          "box": [
+            112,
+            712,
+            288,
+            1200
+          ],
+          "psnr_db": 32.43783528014354,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8359302941884493
+        },
+        {
+          "id": "texture",
+          "box": [
+            840,
+            752,
+            1344,
+            1208
+          ],
+          "psnr_db": 38.36011144930971,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8902281825797503
+        },
+        {
+          "id": "signature",
+          "box": [
+            1080,
+            1904,
+            1416,
+            2048
+          ],
+          "psnr_db": 32.81267524462511,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8427635740922851
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          964,
+          852,
+          1220,
+          1108
+        ],
+        "resize": false,
+        "value": 0.2647823691368103
+      }
+    },
+    {
+      "item": "abstract-q40",
+      "method": "codiff",
+      "condition": "jpeg-q40",
+      "qf": 40,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 31.6952100179982,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7410476343885574
+        },
+        {
+          "id": "shape",
+          "box": [
+            120,
+            1672,
+            640,
+            2000
+          ],
+          "psnr_db": 28.192813306867773,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6346475918185858
+        },
+        {
+          "id": "edge",
+          "box": [
+            112,
+            712,
+            288,
+            1200
+          ],
+          "psnr_db": 27.0964576351151,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6239056446726368
+        },
+        {
+          "id": "texture",
+          "box": [
+            840,
+            752,
+            1344,
+            1208
+          ],
+          "psnr_db": 34.66050845372164,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7815910919548369
+        },
+        {
+          "id": "signature",
+          "box": [
+            1080,
+            1904,
+            1416,
+            2048
+          ],
+          "psnr_db": 28.596119391044695,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6700981416677322
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          964,
+          852,
+          1220,
+          1108
+        ],
+        "resize": false,
+        "value": 0.09442691504955292
+      }
+    },
+    {
+      "item": "abstract-q60",
+      "method": "swinir",
+      "condition": "jpeg-q60",
+      "qf": 60,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 37.02292081163216,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8996195112289707
+        },
+        {
+          "id": "shape",
+          "box": [
+            120,
+            1672,
+            640,
+            2000
+          ],
+          "psnr_db": 34.41752746800775,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.858591509265667
+        },
+        {
+          "id": "edge",
+          "box": [
+            112,
+            712,
+            288,
+            1200
+          ],
+          "psnr_db": 33.63064883618175,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8667605253504101
+        },
+        {
+          "id": "texture",
+          "box": [
+            840,
+            752,
+            1344,
+            1208
+          ],
+          "psnr_db": 38.72484918061551,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9121858429609865
+        },
+        {
+          "id": "signature",
+          "box": [
+            1080,
+            1904,
+            1416,
+            2048
+          ],
+          "psnr_db": 33.63938896717115,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8670938773645993
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          964,
+          852,
+          1220,
+          1108
+        ],
+        "resize": false,
+        "value": 0.17555959522724152
+      }
+    },
+    {
+      "item": "abstract-q60",
+      "method": "codiff",
+      "condition": "jpeg-q60",
+      "qf": 60,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 31.783360514114335,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7536159902613297
+        },
+        {
+          "id": "shape",
+          "box": [
+            120,
+            1672,
+            640,
+            2000
+          ],
+          "psnr_db": 28.162575646755904,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6405723299949352
+        },
+        {
+          "id": "edge",
+          "box": [
+            112,
+            712,
+            288,
+            1200
+          ],
+          "psnr_db": 27.11857131340289,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6356504280733978
+        },
+        {
+          "id": "texture",
+          "box": [
+            840,
+            752,
+            1344,
+            1208
+          ],
+          "psnr_db": 34.9229117861038,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7954654827662216
+        },
+        {
+          "id": "signature",
+          "box": [
+            1080,
+            1904,
+            1416,
+            2048
+          ],
+          "psnr_db": 28.673027939723884,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6798896644134705
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          964,
+          852,
+          1220,
+          1108
+        ],
+        "resize": false,
+        "value": 0.0725194588303566
+      }
+    },
+    {
+      "item": "abstract-clean",
+      "method": "swinir",
+      "condition": "normal-control",
+      "qf": null,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 37.95649203082411,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9146097505557651
+        },
+        {
+          "id": "shape",
+          "box": [
+            120,
+            1672,
+            640,
+            2000
+          ],
+          "psnr_db": 35.42677721826373,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8843895775209057
+        },
+        {
+          "id": "edge",
+          "box": [
+            112,
+            712,
+            288,
+            1200
+          ],
+          "psnr_db": 35.169844617779304,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8896542300715327
+        },
+        {
+          "id": "texture",
+          "box": [
+            840,
+            752,
+            1344,
+            1208
+          ],
+          "psnr_db": 39.86301061927284,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.92540774398009
+        },
+        {
+          "id": "signature",
+          "box": [
+            1080,
+            1904,
+            1416,
+            2048
+          ],
+          "psnr_db": 32.59255807482726,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8876067972783463
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          964,
+          852,
+          1220,
+          1108
+        ],
+        "resize": false,
+        "value": 0.1665399670600891
+      }
+    },
+    {
+      "item": "abstract-clean",
+      "method": "codiff",
+      "condition": "normal-control",
+      "qf": null,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 32.08110325346406,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7720659557168913
+        },
+        {
+          "id": "shape",
+          "box": [
+            120,
+            1672,
+            640,
+            2000
+          ],
+          "psnr_db": 28.205211270981238,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.646079131972419
+        },
+        {
+          "id": "edge",
+          "box": [
+            112,
+            712,
+            288,
+            1200
+          ],
+          "psnr_db": 27.12302167936548,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6467669520312164
+        },
+        {
+          "id": "texture",
+          "box": [
+            840,
+            752,
+            1344,
+            1208
+          ],
+          "psnr_db": 35.65481042559405,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8140106608158545
+        },
+        {
+          "id": "signature",
+          "box": [
+            1080,
+            1904,
+            1416,
+            2048
+          ],
+          "psnr_db": 28.42714962835816,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6788211583525071
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          964,
+          852,
+          1220,
+          1108
+        ],
+        "resize": false,
+        "value": 0.05933143198490143
+      }
+    },
+    {
+      "item": "watercolor-q10",
+      "method": "swinir",
+      "condition": "jpeg-q10",
+      "qf": 10,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            1254,
+            1254
+          ],
+          "psnr_db": 28.672318762041954,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8542057097764735
+        },
+        {
+          "id": "eye",
+          "box": [
+            300,
+            136,
+            400,
+            210
+          ],
+          "psnr_db": 28.043599519802402,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7846556749207977
+        },
+        {
+          "id": "feathers",
+          "box": [
+            176,
+            207,
+            315,
+            315
+          ],
+          "psnr_db": 27.654324633593234,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8332590119195856
+        },
+        {
+          "id": "wash",
+          "box": [
+            485,
+            440,
+            680,
+            610
+          ],
+          "psnr_db": 28.83007191982461,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8636710711612358
+        }
+      ],
+      "lpips": {
+        "roi": "feathers",
+        "box": [
+          176,
+          207,
+          315,
+          315
+        ],
+        "resize": false,
+        "value": 0.08087374269962311
+      }
+    },
+    {
+      "item": "watercolor-q10",
+      "method": "codiff",
+      "condition": "jpeg-q10",
+      "qf": 10,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            1254,
+            1254
+          ],
+          "psnr_db": 24.8915467522481,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7389530594747878
+        },
+        {
+          "id": "eye",
+          "box": [
+            300,
+            136,
+            400,
+            210
+          ],
+          "psnr_db": 23.981457640469106,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6130236063833664
+        },
+        {
+          "id": "feathers",
+          "box": [
+            176,
+            207,
+            315,
+            315
+          ],
+          "psnr_db": 22.325737655784053,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6390845337341158
+        },
+        {
+          "id": "wash",
+          "box": [
+            485,
+            440,
+            680,
+            610
+          ],
+          "psnr_db": 25.85046728925867,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7672269999232149
+        }
+      ],
+      "lpips": {
+        "roi": "feathers",
+        "box": [
+          176,
+          207,
+          315,
+          315
+        ],
+        "resize": false,
+        "value": 0.096520334482193
+      }
+    },
+    {
+      "item": "watercolor-q20",
+      "method": "swinir",
+      "condition": "jpeg-q20",
+      "qf": 20,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            1254,
+            1254
+          ],
+          "psnr_db": 31.69886820920449,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9035689230046337
+        },
+        {
+          "id": "eye",
+          "box": [
+            300,
+            136,
+            400,
+            210
+          ],
+          "psnr_db": 30.607224807220774,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8671197923599722
+        },
+        {
+          "id": "feathers",
+          "box": [
+            176,
+            207,
+            315,
+            315
+          ],
+          "psnr_db": 30.426980180549318,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9024363069193356
+        },
+        {
+          "id": "wash",
+          "box": [
+            485,
+            440,
+            680,
+            610
+          ],
+          "psnr_db": 32.34283554021626,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9060096369671604
+        }
+      ],
+      "lpips": {
+        "roi": "feathers",
+        "box": [
+          176,
+          207,
+          315,
+          315
+        ],
+        "resize": false,
+        "value": 0.033057861030101776
+      }
+    },
+    {
+      "item": "watercolor-q20",
+      "method": "codiff",
+      "condition": "jpeg-q20",
+      "qf": 20,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            1254,
+            1254
+          ],
+          "psnr_db": 25.571122244431322,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7567200104643509
+        },
+        {
+          "id": "eye",
+          "box": [
+            300,
+            136,
+            400,
+            210
+          ],
+          "psnr_db": 24.63929681982205,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6339461656504075
+        },
+        {
+          "id": "feathers",
+          "box": [
+            176,
+            207,
+            315,
+            315
+          ],
+          "psnr_db": 23.152282115759085,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6755549335944838
+        },
+        {
+          "id": "wash",
+          "box": [
+            485,
+            440,
+            680,
+            610
+          ],
+          "psnr_db": 26.50881052530332,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7809685706366283
+        }
+      ],
+      "lpips": {
+        "roi": "feathers",
+        "box": [
+          176,
+          207,
+          315,
+          315
+        ],
+        "resize": false,
+        "value": 0.06526082009077072
+      }
+    },
+    {
+      "item": "watercolor-q40",
+      "method": "swinir",
+      "condition": "jpeg-q40",
+      "qf": 40,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            1254,
+            1254
+          ],
+          "psnr_db": 34.264362901430786,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9359736108254988
+        },
+        {
+          "id": "eye",
+          "box": [
+            300,
+            136,
+            400,
+            210
+          ],
+          "psnr_db": 32.83890561609961,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9214355192326215
+        },
+        {
+          "id": "feathers",
+          "box": [
+            176,
+            207,
+            315,
+            315
+          ],
+          "psnr_db": 32.95590105767638,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9401443486720229
+        },
+        {
+          "id": "wash",
+          "box": [
+            485,
+            440,
+            680,
+            610
+          ],
+          "psnr_db": 34.933287433313346,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9337417514731426
+        }
+      ],
+      "lpips": {
+        "roi": "feathers",
+        "box": [
+          176,
+          207,
+          315,
+          315
+        ],
+        "resize": false,
+        "value": 0.01700018160045147
+      }
+    },
+    {
+      "item": "watercolor-q40",
+      "method": "codiff",
+      "condition": "jpeg-q40",
+      "qf": 40,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            1254,
+            1254
+          ],
+          "psnr_db": 25.93852403098621,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7667427055311175
+        },
+        {
+          "id": "eye",
+          "box": [
+            300,
+            136,
+            400,
+            210
+          ],
+          "psnr_db": 24.625786240758593,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.63529507040055
+        },
+        {
+          "id": "feathers",
+          "box": [
+            176,
+            207,
+            315,
+            315
+          ],
+          "psnr_db": 23.10038144682597,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6694449637880783
+        },
+        {
+          "id": "wash",
+          "box": [
+            485,
+            440,
+            680,
+            610
+          ],
+          "psnr_db": 26.96012393268077,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7898582504220574
+        }
+      ],
+      "lpips": {
+        "roi": "feathers",
+        "box": [
+          176,
+          207,
+          315,
+          315
+        ],
+        "resize": false,
+        "value": 0.06737888604402542
+      }
+    },
+    {
+      "item": "watercolor-q60",
+      "method": "swinir",
+      "condition": "jpeg-q60",
+      "qf": 60,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            1254,
+            1254
+          ],
+          "psnr_db": 34.897903251472336,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9455532600273089
+        },
+        {
+          "id": "eye",
+          "box": [
+            300,
+            136,
+            400,
+            210
+          ],
+          "psnr_db": 34.11295720419043,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.937975008965671
+        },
+        {
+          "id": "feathers",
+          "box": [
+            176,
+            207,
+            315,
+            315
+          ],
+          "psnr_db": 33.77388405146272,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9520921860420349
+        },
+        {
+          "id": "wash",
+          "box": [
+            485,
+            440,
+            680,
+            610
+          ],
+          "psnr_db": 35.476549109789566,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9436850961181257
+        }
+      ],
+      "lpips": {
+        "roi": "feathers",
+        "box": [
+          176,
+          207,
+          315,
+          315
+        ],
+        "resize": false,
+        "value": 0.015050230547785759
+      }
+    },
+    {
+      "item": "watercolor-q60",
+      "method": "codiff",
+      "condition": "jpeg-q60",
+      "qf": 60,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            1254,
+            1254
+          ],
+          "psnr_db": 26.01801755268575,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.770721123067685
+        },
+        {
+          "id": "eye",
+          "box": [
+            300,
+            136,
+            400,
+            210
+          ],
+          "psnr_db": 24.5371036408844,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6479945621595556
+        },
+        {
+          "id": "feathers",
+          "box": [
+            176,
+            207,
+            315,
+            315
+          ],
+          "psnr_db": 23.483398233065515,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6871229793763874
+        },
+        {
+          "id": "wash",
+          "box": [
+            485,
+            440,
+            680,
+            610
+          ],
+          "psnr_db": 27.100197966594187,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.794693386535548
+        }
+      ],
+      "lpips": {
+        "roi": "feathers",
+        "box": [
+          176,
+          207,
+          315,
+          315
+        ],
+        "resize": false,
+        "value": 0.05893353745341301
+      }
+    },
+    {
+      "item": "watercolor-clean",
+      "method": "swinir",
+      "condition": "normal-control",
+      "qf": null,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            1254,
+            1254
+          ],
+          "psnr_db": 34.06283082389667,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9256557944354441
+        },
+        {
+          "id": "eye",
+          "box": [
+            300,
+            136,
+            400,
+            210
+          ],
+          "psnr_db": 33.868996683262,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9295869282008155
+        },
+        {
+          "id": "feathers",
+          "box": [
+            176,
+            207,
+            315,
+            315
+          ],
+          "psnr_db": 33.28433186419869,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9511249989927748
+        },
+        {
+          "id": "wash",
+          "box": [
+            485,
+            440,
+            680,
+            610
+          ],
+          "psnr_db": 34.47183730194617,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9177268835851667
+        }
+      ],
+      "lpips": {
+        "roi": "feathers",
+        "box": [
+          176,
+          207,
+          315,
+          315
+        ],
+        "resize": false,
+        "value": 0.01701759174466133
+      }
+    },
+    {
+      "item": "watercolor-clean",
+      "method": "codiff",
+      "condition": "normal-control",
+      "qf": null,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            1254,
+            1254
+          ],
+          "psnr_db": 26.06408123640799,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.775824666891156
+        },
+        {
+          "id": "eye",
+          "box": [
+            300,
+            136,
+            400,
+            210
+          ],
+          "psnr_db": 24.281681151198953,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6225220390055725
+        },
+        {
+          "id": "feathers",
+          "box": [
+            176,
+            207,
+            315,
+            315
+          ],
+          "psnr_db": 23.5063537948986,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.6899066784089899
+        },
+        {
+          "id": "wash",
+          "box": [
+            485,
+            440,
+            680,
+            610
+          ],
+          "psnr_db": 27.132149441938505,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.7983854238090501
+        }
+      ],
+      "lpips": {
+        "roi": "feathers",
+        "box": [
+          176,
+          207,
+          315,
+          315
+        ],
+        "resize": false,
+        "value": 0.06167477369308472
+      }
+    },
+    {
+      "item": "realistic-band5",
+      "method": "wavemamba-full",
+      "condition": "synthetic-rgb5-banding",
+      "qf": null,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 39.50387369758245,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9677864766873251
+        },
+        {
+          "id": "texture",
+          "box": [
+            1360,
+            600,
+            1720,
+            980
+          ],
+          "psnr_db": 39.20333948401399,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9813330701091826
+        },
+        {
+          "id": "gradient",
+          "box": [
+            1024,
+            96,
+            1408,
+            480
+          ],
+          "psnr_db": 39.4776768941878,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9703786842451967
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1412,
+          662,
+          1668,
+          918
+        ],
+        "resize": false,
+        "value": 0.011738460510969162
+      }
+    },
+    {
+      "item": "realistic-band4",
+      "method": "wavemamba-full",
+      "condition": "synthetic-rgb4-artificial-posterization-stress",
+      "qf": null,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 35.46172988586455,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8902186278294463
+        },
+        {
+          "id": "texture",
+          "box": [
+            1360,
+            600,
+            1720,
+            980
+          ],
+          "psnr_db": 35.695187171338254,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9431306449351994
+        },
+        {
+          "id": "gradient",
+          "box": [
+            1024,
+            96,
+            1408,
+            480
+          ],
+          "psnr_db": 35.28254760861314,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.8887977941790736
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1412,
+          662,
+          1668,
+          918
+        ],
+        "resize": false,
+        "value": 0.019609050825238228
+      }
+    },
+    {
+      "item": "realistic-clean",
+      "method": "wavemamba-full",
+      "condition": "normal-control",
+      "qf": null,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            2048,
+            2048
+          ],
+          "psnr_db": 40.18890138235583,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9915806524720775
+        },
+        {
+          "id": "texture",
+          "box": [
+            1360,
+            600,
+            1720,
+            980
+          ],
+          "psnr_db": 39.724471573548556,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9919385685725698
+        },
+        {
+          "id": "gradient",
+          "box": [
+            1024,
+            96,
+            1408,
+            480
+          ],
+          "psnr_db": 39.344166608458536,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9910865184443169
+        }
+      ],
+      "lpips": {
+        "roi": "texture",
+        "box": [
+          1412,
+          662,
+          1668,
+          918
+        ],
+        "resize": false,
+        "value": 0.012383313849568367
+      }
+    },
+    {
+      "item": "watercolor-band5",
+      "method": "wavemamba-full",
+      "condition": "synthetic-rgb5-banding",
+      "qf": null,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            1254,
+            1254
+          ],
+          "psnr_db": 38.192966196265175,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9762397597807656
+        },
+        {
+          "id": "feathers",
+          "box": [
+            176,
+            207,
+            315,
+            315
+          ],
+          "psnr_db": 38.31866754882218,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9855007445532177
+        },
+        {
+          "id": "wash",
+          "box": [
+            485,
+            440,
+            680,
+            610
+          ],
+          "psnr_db": 38.560630384376616,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9740653192540581
+        }
+      ],
+      "lpips": {
+        "roi": "feathers",
+        "box": [
+          176,
+          207,
+          315,
+          315
+        ],
+        "resize": false,
+        "value": 0.0029938453808426857
+      }
+    },
+    {
+      "item": "watercolor-clean",
+      "method": "wavemamba-full",
+      "condition": "normal-control",
+      "qf": null,
+      "regions": [
+        {
+          "id": "full",
+          "box": [
+            0,
+            0,
+            1254,
+            1254
+          ],
+          "psnr_db": 39.496915181103866,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9840439312941361
+        },
+        {
+          "id": "feathers",
+          "box": [
+            176,
+            207,
+            315,
+            315
+          ],
+          "psnr_db": 39.53583796374277,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9895790255394624
+        },
+        {
+          "id": "wash",
+          "box": [
+            485,
+            440,
+            680,
+            610
+          ],
+          "psnr_db": 40.070341457256085,
+          "psnr_is_positive_infinity": false,
+          "ssim": 0.9849439744283824
+        }
+      ],
+      "lpips": {
+        "roi": "feathers",
+        "box": [
+          176,
+          207,
+          315,
+          315
+        ],
+        "resize": false,
+        "value": 0.0033613371197134256
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>素材・出典・検証範囲</title><style>body{max-width:960px;margin:32px auto;padding:0 20px;background:#f5f1e8;color:#25332d;font:15px/1.8 Meiryo,sans-serif}a{color:#305d4b}li{margin:12px 0}</style>
+<h1>素材・出典・検証範囲</h1><p><a href="index.html">比較画面へ戻る</a></p>
+<p>2026-10-22の独立PoCの保存結果です。写真・油絵・抽象画は元配布JPEGから拡大せず2048×2048を切り出し、水彩は既存1254×1254素材を使用しました。無損失の原作スキャンを意味しません。</p>
+<ul><li>写真：R. Hagerty/USFWS、<a href="https://www.fws.gov/media/monarch-butterfly">Monarch Butterfly</a>。公式配布ページはPublic Domain。</li>
+<li>油絵：Vincent van Gogh、Irises、1890。<a href="https://www.metmuseum.org/art/collection/search/436528">The Metropolitan Museum of Art</a> Open Access、Public Domain / CC0。</li>
+<li>抽象画：Piet Mondrian、Composition with Red, Yellow, and Blue、1927。<a href="https://www.clevelandart.org/art/1967.215">Cleveland Museum of Art</a>、CC0。</li>
+<li>水彩：既存の検証用素材（鳥と植物の壁紙、1254×1254）。上記美術館画像と同じCC0条件を一律に適用するものではありません。</li></ul>
+<h2>比較した方式</h2><ul><li><a href="https://github.com/jp-guo/CODiff">CODiff</a>：著者重みとCaVE、fp16、seed20261022、VAE/latent分割なし。基盤SD2.1は固定revisionのcommunity mirrorを使用。AdaINの色参照は劣化入力。元配布版とのバイト同一性や論文の完全再現は主張しません。</li>
+<li><a href="https://github.com/JingyunLiang/SwinIR">SwinIR</a> colorCAR：RGB float32、tile504／overlap28。Q10/20/40別重み、Q60入力にはQ40重みを適用した外挿試験。正常対照もQ40重み。</li>
+<li><a href="https://github.com/xinyiW915/Debanding-PCS2025">WaveMamba-MAP</a>：並列scan移植版、tile512／overlap64、tileごとの周波数mapとscan。公式CUDA kernelとの厳密一致・速度再現は未測定。派生コード・重みの利用許諾は未確認。モデルやコードをこの公開ページに配布していません。</li></ul>
+<h2>判定と限界</h2><p>JPEGノイズは部分的に改善しましたが、細毛・個別の筆跡・署名の忠実な保持を条件とする自動採用は未達です。WaveMambaの今回の人工量子化条件で、十分なバンディング除去は未実証です。</p>
+<p>JPEG Q10/20/40/60は人工再圧縮（4:2:0）、RGB5/RGB4はディザなしの人工量子化です。正常対照も処理しています。各系統1素材の結果であり、実顧客画像、印刷校正、作者の採用判断、未知QF推定、工数削減、一般的な成功率を測定したものではありません。原画は評価用で、復元モデルの入力には渡していません。</p>
+<p>補助指標は保存RGB8のnative座標で計算しました。LPIPSは限定ROIのAlexNet0.1系で、署名や個々の筆跡の正しさを保証しません。APSNR/DBIは未測定。指標・ソフトウェアの合格と画質の合格を区別します。</p>
+<p>ここには表示に必要なHTML・画像・公開用の比較記録だけを収録しています。推論コード、重み、環境、内部ログは含めていません。画像や学習済みモデル全体へ一律の利用許諾を付与するリポジトリではありません。</p></html>

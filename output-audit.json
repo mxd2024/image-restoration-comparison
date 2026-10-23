@@ -1,0 +1,3314 @@
+{
+  "scope": "public static display files only",
+  "all_asset_bytes_equal_local": true,
+  "missing_links": [],
+  "entries": 45,
+  "assets": [
+    {
+      "path": "assets/60b38f14caf7ffe5a4fb66d76aafd6887e5bb752df353e3255de3632ab8dba2b.png",
+      "sha256": "60b38f14caf7ffe5a4fb66d76aafd6887e5bb752df353e3255de3632ab8dba2b",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "assets/c1e16b5634f279a9ef4845b91852548d3844b1e673fa9af00ee98a042f4943cc.png",
+      "sha256": "c1e16b5634f279a9ef4845b91852548d3844b1e673fa9af00ee98a042f4943cc",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "assets/779b82bf4ee502fb1567a1ee424c60c9be726c73275c628825eb984a62c8c332.png",
+      "sha256": "779b82bf4ee502fb1567a1ee424c60c9be726c73275c628825eb984a62c8c332",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q10-swinir-full-preview.png",
+      "sha256": "d49bee9bbc8c28b86f9c3ea3d4d6f26dba3867fd9694b5d4d55005a56b787a09",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q10-swinir-shape-100pct.png",
+      "sha256": "9a80cf51ccc007abc6b1460001ac7612bc51ad76b94486f31611bfb70c0d8dfd",
+      "size": [
+        1524,
+        598
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q10-swinir-shape-200pct.png",
+      "sha256": "af495e01e99888698458cbbf84e6f088bb2cbd985407b89587f29e8443414945",
+      "size": [
+        3024,
+        1138
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q10-swinir-edge-100pct.png",
+      "sha256": "6a106bf399db84e54885aac84791a5b3e085252ecf4e84376ac4b981bb2b73f8",
+      "size": [
+        1944,
+        418
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q10-swinir-edge-200pct.png",
+      "sha256": "65dddb79d88a81b5d9c881058ed77599381521db1bb1aa4c4b7256ede8b05adb",
+      "size": [
+        3864,
+        778
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q10-swinir-texture-100pct.png",
+      "sha256": "f75c26720ec883adae5314c35dbd5147839c5888b9ed891a6032bcda6f22a7fc",
+      "size": [
+        1104,
+        438
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q10-swinir-texture-200pct.png",
+      "sha256": "fc4219eba6e620263ab5d249084154eb56e8e2cf00caad177a197ce486cd5220",
+      "size": [
+        2184,
+        818
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q10-swinir-gradient-100pct.png",
+      "sha256": "06ff5f1a937d1ecf6d5c90a54a8520b4e85d152cb1e0122745bc327a7d3f0300",
+      "size": [
+        1176,
+        442
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q10-swinir-gradient-200pct.png",
+      "sha256": "9c0a739ca69911c0a95a4d785faf5f2d72a0b2d97d233b3536d4d2b51c834459",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "assets/65ae6f6dfc707930d9eb5be4846d4666f9ca435b1f3427ff30eba307f019983c.png",
+      "sha256": "65ae6f6dfc707930d9eb5be4846d4666f9ca435b1f3427ff30eba307f019983c",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q10-codiff-full-preview.png",
+      "sha256": "330aa91a1b8a90f424b78d2f14de3994212b44a7b3b9d9e3fca3828192d97d78",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q10-codiff-shape-100pct.png",
+      "sha256": "a9e7038e5802df0df602ee89f18227a9daf62d3af844d83fae5fe7e6ba7a4182",
+      "size": [
+        1524,
+        598
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q10-codiff-shape-200pct.png",
+      "sha256": "79a5db911477b3f0829cb38347e126bbf5a3c36f589f30eb64bfd5dbfe078dcb",
+      "size": [
+        3024,
+        1138
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q10-codiff-edge-100pct.png",
+      "sha256": "a01c24fbf290b1ab4b13905665328bd31df7546da9c4972524902de909f4193b",
+      "size": [
+        1944,
+        418
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q10-codiff-edge-200pct.png",
+      "sha256": "c3eb0fc5b8343735b61961185280c87735ab0cd981942ad6554fefe900a5e219",
+      "size": [
+        3864,
+        778
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q10-codiff-texture-100pct.png",
+      "sha256": "8fff83eb03632a5c0b24301a0022542514d1fc8844e3f6e206aabcd5bddc4b2f",
+      "size": [
+        1104,
+        438
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q10-codiff-texture-200pct.png",
+      "sha256": "00ef02a9a3006ac776387b6470fe8cecb7865601276d8fc860be9cc23c4bd261",
+      "size": [
+        2184,
+        818
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q10-codiff-gradient-100pct.png",
+      "sha256": "9ab5327645c2b02303199420f0ffb99573b6f8ad4b2fcf091a2ab7c310292ef3",
+      "size": [
+        1176,
+        442
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q10-codiff-gradient-200pct.png",
+      "sha256": "d4cb58fcafc2a13e7075c3baa571eca4b7227b3f6c6e78c74ae3a1ed8ea20221",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "assets/0415506e487e0e6c5df1b7b134dfda4a4048eaf8fd8e240ea5502bfcbe695beb.png",
+      "sha256": "0415506e487e0e6c5df1b7b134dfda4a4048eaf8fd8e240ea5502bfcbe695beb",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "assets/bd1c62673da31745d893f4c5d77430eac7da6f21ff3bd975deaa514fe7f79cdf.png",
+      "sha256": "bd1c62673da31745d893f4c5d77430eac7da6f21ff3bd975deaa514fe7f79cdf",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q20-swinir-full-preview.png",
+      "sha256": "71e8ff6dcdf74fe334044bfdfb13e62d8e73ee16a816a616a7c8e2df4561f78f",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q20-swinir-shape-100pct.png",
+      "sha256": "e6d415c2171c78db29896d04edf68ffde99734c6b74dcb330c34646223a20e37",
+      "size": [
+        1524,
+        598
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q20-swinir-shape-200pct.png",
+      "sha256": "21bcf4c3940535a1e7367c33da91e3a5548cb2f54f803de7e6d371fb20a94c50",
+      "size": [
+        3024,
+        1138
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q20-swinir-edge-100pct.png",
+      "sha256": "9a88f8275d89f47c319260a1a2ac811299f00d3c2bd6cc4737b9dfd4876ce12a",
+      "size": [
+        1944,
+        418
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q20-swinir-edge-200pct.png",
+      "sha256": "ee6ecc1193f9c9407dfe8f78613d437bdd121fa90ac7e02dd6bb8fa4163d5033",
+      "size": [
+        3864,
+        778
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q20-swinir-texture-100pct.png",
+      "sha256": "20b45900ba51cd90a83f2ebbbbda5cfd6ca788318156d582ce3dbe60f1dfa227",
+      "size": [
+        1104,
+        438
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q20-swinir-texture-200pct.png",
+      "sha256": "87d3de54970b885166521e2d5b8ee4ee329119a8598e3148bcdd82cb0a76444f",
+      "size": [
+        2184,
+        818
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q20-swinir-gradient-100pct.png",
+      "sha256": "98e28905f64880c5b9bf24264073d3e5631efdc60324e5c47510d4bc99aa1192",
+      "size": [
+        1176,
+        442
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q20-swinir-gradient-200pct.png",
+      "sha256": "01cc91d78f2be114b06c8f19c8263ea7ca39ed3d5c391d0aac003b9adc8b4cd5",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "assets/859ed88cbe21a635c83cc94f12f6488cc210b5f8fc92f290527d2623d693d747.png",
+      "sha256": "859ed88cbe21a635c83cc94f12f6488cc210b5f8fc92f290527d2623d693d747",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q20-codiff-full-preview.png",
+      "sha256": "7c6bac745cb2d17640707d8d2d86fe678f51f67afe69f2493f333ec4ae4227a0",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q20-codiff-shape-100pct.png",
+      "sha256": "171fe3586818ddf6b8b035ae26092d643c8403788c619e5fdf69f5cd7fea5228",
+      "size": [
+        1524,
+        598
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q20-codiff-shape-200pct.png",
+      "sha256": "bbb66aa7b95027ee57e848dfa2faf8b5a8b18b05f900425c81d6bbf9f43bdf7a",
+      "size": [
+        3024,
+        1138
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q20-codiff-edge-100pct.png",
+      "sha256": "d2719604f647886fab5c831ba89a698493c5680a7bba4d73b8d24ff137bcf71e",
+      "size": [
+        1944,
+        418
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q20-codiff-edge-200pct.png",
+      "sha256": "63b6b7e2803b4fca3236fd4b147b30edc6c25bd74f84ed5b71471a934b087bf8",
+      "size": [
+        3864,
+        778
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q20-codiff-texture-100pct.png",
+      "sha256": "dd536ffe4c8c51ab279d10702f558fecca3863d9072c8edf3f47a1d7a71bf426",
+      "size": [
+        1104,
+        438
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q20-codiff-texture-200pct.png",
+      "sha256": "07f1983efdc1296ed8d18fe60f869a6d7ba767efe544401999033a5497ce4348",
+      "size": [
+        2184,
+        818
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q20-codiff-gradient-100pct.png",
+      "sha256": "91a7a0b5dd16a1940d9ebf582fdf10348b70eb96ad3e32414fa9e7c002d26114",
+      "size": [
+        1176,
+        442
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q20-codiff-gradient-200pct.png",
+      "sha256": "0f90d97fb2f5541f85c5e65501475fa50bacbeeaa1a014b2a98f247b2b7240dc",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "assets/6b9bc07ab20b18bab2e62673b9ff00d5fc6bb73377cfe3002af16e466d551364.png",
+      "sha256": "6b9bc07ab20b18bab2e62673b9ff00d5fc6bb73377cfe3002af16e466d551364",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "assets/62c9531a86e1890045204286c52bd2007f1e82423f04064c1d1c3b6ab00344bd.png",
+      "sha256": "62c9531a86e1890045204286c52bd2007f1e82423f04064c1d1c3b6ab00344bd",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q40-swinir-full-preview.png",
+      "sha256": "c820af9dc79a366474a324170d3311b5e3453184f4d4a51a6ced59f35cc8031c",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q40-swinir-shape-100pct.png",
+      "sha256": "d9c30a058adf4bd5707235cf2e0e47161e9e3fb895b6687bf4e050b318d7e378",
+      "size": [
+        1524,
+        598
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q40-swinir-shape-200pct.png",
+      "sha256": "1a9f52c942b09df12271417c51cd49bce337889e682ff4c385e68eeac379f253",
+      "size": [
+        3024,
+        1138
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q40-swinir-edge-100pct.png",
+      "sha256": "d85c43812e53c8cda90741f2d53bc45a8c3213c686ce52feffaf3012a7fa0ec3",
+      "size": [
+        1944,
+        418
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q40-swinir-edge-200pct.png",
+      "sha256": "c6076e110e3c1c61390c2ae2a41e9403c2b2a3c1cdcc3b348104ddf6a74aba03",
+      "size": [
+        3864,
+        778
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q40-swinir-texture-100pct.png",
+      "sha256": "dadb4e6e17110d63261de402590ba0bd692259d0e3738c739ac09885dcdd4eb9",
+      "size": [
+        1104,
+        438
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q40-swinir-texture-200pct.png",
+      "sha256": "63fce962ec0cd2907ea19a642b9e4f9071673d9b4ef4c96e6f20f5ee868afc5e",
+      "size": [
+        2184,
+        818
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q40-swinir-gradient-100pct.png",
+      "sha256": "5a046cf81be205cf4d293b5d0c8dc72cb8f95a52652ba22e3f84e264fbf245cf",
+      "size": [
+        1176,
+        442
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q40-swinir-gradient-200pct.png",
+      "sha256": "87cac4145907239da5b64fcad3881d393d00577c728b95ca348c37af49d21e93",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "assets/70b37d61e009a403fb0737202b2d41176c7adab35ba41fb7039ecb002ec97e81.png",
+      "sha256": "70b37d61e009a403fb0737202b2d41176c7adab35ba41fb7039ecb002ec97e81",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q40-codiff-full-preview.png",
+      "sha256": "b86c4fafbac56bafefba0a6bb33b0bda0abf6109692efeedafd31af73c174af8",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q40-codiff-shape-100pct.png",
+      "sha256": "75274eb34a2fde0f8c43d260c097101e758fc993ac6adb464b40f0eab3a4ea75",
+      "size": [
+        1524,
+        598
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q40-codiff-shape-200pct.png",
+      "sha256": "30eb9198ad4434c302b6eeb0637a549b476f1dcc61d18b9f2c547f639eb75428",
+      "size": [
+        3024,
+        1138
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q40-codiff-edge-100pct.png",
+      "sha256": "46d57fd0ed1055f5b5e39fa851e2380b6e1e9adb47079635f9f9ad193db898e3",
+      "size": [
+        1944,
+        418
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q40-codiff-edge-200pct.png",
+      "sha256": "0a3f35473ed6bfec9cdd103385e8aa9e21d53360dea918c5f8f96840065c0c4b",
+      "size": [
+        3864,
+        778
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q40-codiff-texture-100pct.png",
+      "sha256": "cbf07d3aef5b360ec5242ea8a02ea3dfbb570c8b8c1e2c17ed50a8f9c4eb5a30",
+      "size": [
+        1104,
+        438
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q40-codiff-texture-200pct.png",
+      "sha256": "43ac8f7aaaaa3ce98ef17a532b4d90cc4ae042cd87b2ca83ea8564c3a9bed407",
+      "size": [
+        2184,
+        818
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q40-codiff-gradient-100pct.png",
+      "sha256": "ef3dc4414f693335af0199bb0697896b31b946aea477b7fae2111446770b35d7",
+      "size": [
+        1176,
+        442
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q40-codiff-gradient-200pct.png",
+      "sha256": "24d4c883d75d002a5c3285be874e2ab659c51fcfbd667d8d1adb564dbda8d321",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "assets/1f07609977357e9719bc4386240c810639fbb560b862a5e1e2bf62dcea3ee0fc.png",
+      "sha256": "1f07609977357e9719bc4386240c810639fbb560b862a5e1e2bf62dcea3ee0fc",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "assets/de09ca67d90dfffb23e5c57677d2870b4ab6582faac9edafda09f921de99d005.png",
+      "sha256": "de09ca67d90dfffb23e5c57677d2870b4ab6582faac9edafda09f921de99d005",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q60-swinir-full-preview.png",
+      "sha256": "7f8ef6ee5bd2d5491df78037b110b08ab1d102a270d69e888eaa2a23861fb290",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q60-swinir-shape-100pct.png",
+      "sha256": "76774e3ef0bb5fa024e45846192c3cb678010275a2c689289becece2e3740d81",
+      "size": [
+        1524,
+        598
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q60-swinir-shape-200pct.png",
+      "sha256": "0679f379740a933960cf378a0b2b959e587d8ff9c6f5be6af17c6ac06c814bf6",
+      "size": [
+        3024,
+        1138
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q60-swinir-edge-100pct.png",
+      "sha256": "89e99012f90ace021fd71b6b8797e222ef91f91d96fe32c1dbf69ce64bed0378",
+      "size": [
+        1944,
+        418
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q60-swinir-edge-200pct.png",
+      "sha256": "e7ef51436cf89d185020d3a0704f707334529f8ad305ff090a307be2a3986a9a",
+      "size": [
+        3864,
+        778
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q60-swinir-texture-100pct.png",
+      "sha256": "b1e4f9501480859bb5875c665f0df0fd10a6e5403e28b7cee4ac53331abf7022",
+      "size": [
+        1104,
+        438
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q60-swinir-texture-200pct.png",
+      "sha256": "449183fa341d963197e4daf99d956869aa9b8183f1a97229884ea21e1d10c576",
+      "size": [
+        2184,
+        818
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q60-swinir-gradient-100pct.png",
+      "sha256": "5a9bc123774a9a17b86300b3399d226d4ee5495690dd6d829100272823e86d93",
+      "size": [
+        1176,
+        442
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q60-swinir-gradient-200pct.png",
+      "sha256": "5372527f0e3ad1299d1e1b9de28a833473c1545ae15c31f1f272a9a492fe6ddf",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "assets/f8ed0fd5ff15ad02075530f3ec18b2d5c6123f1810d9c364d8b5438831bb9034.png",
+      "sha256": "f8ed0fd5ff15ad02075530f3ec18b2d5c6123f1810d9c364d8b5438831bb9034",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q60-codiff-full-preview.png",
+      "sha256": "b681c70851922d5dd6d6f6601a5d64f10ae37aadc76e3f927c0bb8f3fa15cd92",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q60-codiff-shape-100pct.png",
+      "sha256": "9c702c2bf9f06afc3f6f477d19942d855cd852261fef3b4cd40d889b3b5ff4d0",
+      "size": [
+        1524,
+        598
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q60-codiff-shape-200pct.png",
+      "sha256": "e9a8de1dd558e4924b4a29acf41fe9380e49bc02036839eb383373d4ad51da88",
+      "size": [
+        3024,
+        1138
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q60-codiff-edge-100pct.png",
+      "sha256": "6985de6ebab8756fc4865b506b3210714493b66772c34c6fc858d643fc5f9b9b",
+      "size": [
+        1944,
+        418
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q60-codiff-edge-200pct.png",
+      "sha256": "3c25994208e131e5d55fcac5baf206b2a1bf9cffbe4fbab2cc1fca91f4d297a9",
+      "size": [
+        3864,
+        778
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q60-codiff-texture-100pct.png",
+      "sha256": "90d31fa726a7b7b48de6cf1ba9a2d4455aa0adee8d42732e28d15a1ca2d5acde",
+      "size": [
+        1104,
+        438
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q60-codiff-texture-200pct.png",
+      "sha256": "c44ad05e0d032faddf9c43a5bb36a612a3a36c2913a58c331743615bc053e450",
+      "size": [
+        2184,
+        818
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q60-codiff-gradient-100pct.png",
+      "sha256": "6d7c93bc5ace977de8a1c49b75d9209abff25eca195a6d7863f9d94fbb2a6355",
+      "size": [
+        1176,
+        442
+      ]
+    },
+    {
+      "path": "comparisons/realistic-q60-codiff-gradient-200pct.png",
+      "sha256": "04bb2b82c872becaad782c82fa48f90bffde5aee07aa86a7407a7c8040da7811",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "assets/55515e0fdb8deb76042f8de7bacab66d3520fd8fdaf24947fdd85f980b3d5854.png",
+      "sha256": "55515e0fdb8deb76042f8de7bacab66d3520fd8fdaf24947fdd85f980b3d5854",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/realistic-clean-swinir-full-preview.png",
+      "sha256": "01fabeae3f21639b0825514594a957c1d2d7f016437157fe0e4d057f8d993f35",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/realistic-clean-swinir-shape-100pct.png",
+      "sha256": "57a356e607e10c70bacc56496464ade1cf07a975bf368fae40ca5fefe54a7f9f",
+      "size": [
+        1524,
+        598
+      ]
+    },
+    {
+      "path": "comparisons/realistic-clean-swinir-shape-200pct.png",
+      "sha256": "26968a5a81434bf19d1e7223ee6430685c91c9f280336adf779b9d951e7c3073",
+      "size": [
+        3024,
+        1138
+      ]
+    },
+    {
+      "path": "comparisons/realistic-clean-swinir-edge-100pct.png",
+      "sha256": "83908c2e158f268c5a5c0e8e7c38068247f2b8bd294785c7e86518b67d685075",
+      "size": [
+        1944,
+        418
+      ]
+    },
+    {
+      "path": "comparisons/realistic-clean-swinir-edge-200pct.png",
+      "sha256": "23fc76b0ccaa9a76ed0841e4310c476c9b51059e6f5b7bf80af5076d69cbd1ea",
+      "size": [
+        3864,
+        778
+      ]
+    },
+    {
+      "path": "comparisons/realistic-clean-swinir-texture-100pct.png",
+      "sha256": "8ec1719f333ae9c65fa6f01457c3053d2405160b6c0839be7122da2a77804e36",
+      "size": [
+        1104,
+        438
+      ]
+    },
+    {
+      "path": "comparisons/realistic-clean-swinir-texture-200pct.png",
+      "sha256": "3e18b84df6ceb813a0d9cc5116ab06f73267f40aad9a40a44d15bfa4d47b3951",
+      "size": [
+        2184,
+        818
+      ]
+    },
+    {
+      "path": "comparisons/realistic-clean-swinir-gradient-100pct.png",
+      "sha256": "82202a9327a58dd37a0be73af3403f81e75fe2a3fddf5db2f99754244450f87d",
+      "size": [
+        1176,
+        442
+      ]
+    },
+    {
+      "path": "comparisons/realistic-clean-swinir-gradient-200pct.png",
+      "sha256": "b042cf896c2cab75b83000f4bbed5b691f708f1e223a18203af8639fab51b217",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "assets/6dadbe54582de77ab36cfc031531857a4557f939209c892f00dfc6875a8255fe.png",
+      "sha256": "6dadbe54582de77ab36cfc031531857a4557f939209c892f00dfc6875a8255fe",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/realistic-clean-codiff-full-preview.png",
+      "sha256": "5d221f8a75768464e89666fdb34cc41cf33bf81dfee14198a2ebe1a8562b37ea",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/realistic-clean-codiff-shape-100pct.png",
+      "sha256": "0b0eea1e760d4cec45a754138bb89915160c164a7eb54d193c01eb937bb3f802",
+      "size": [
+        1524,
+        598
+      ]
+    },
+    {
+      "path": "comparisons/realistic-clean-codiff-shape-200pct.png",
+      "sha256": "3f0e235496baa502fc9c3152ef80455e89b2de9a4e592b90999895cd97f8182a",
+      "size": [
+        3024,
+        1138
+      ]
+    },
+    {
+      "path": "comparisons/realistic-clean-codiff-edge-100pct.png",
+      "sha256": "d506a1f9acfde9c0e0ba4ad8bc47d1cb5d2bff12f1f4a4bd01fcde9928a519ff",
+      "size": [
+        1944,
+        418
+      ]
+    },
+    {
+      "path": "comparisons/realistic-clean-codiff-edge-200pct.png",
+      "sha256": "f0b82cad3ee0c255e05580ebf04233403d41a99010728da7915ca02e38dce126",
+      "size": [
+        3864,
+        778
+      ]
+    },
+    {
+      "path": "comparisons/realistic-clean-codiff-texture-100pct.png",
+      "sha256": "92ce4cf3666a66a14db5e420e2cf016a48ec58bad8b47bd4676a888388726afa",
+      "size": [
+        1104,
+        438
+      ]
+    },
+    {
+      "path": "comparisons/realistic-clean-codiff-texture-200pct.png",
+      "sha256": "c2420e799dbbffa90ea3784fabc03d69c8aff90292be293e0a6a80c6474045dd",
+      "size": [
+        2184,
+        818
+      ]
+    },
+    {
+      "path": "comparisons/realistic-clean-codiff-gradient-100pct.png",
+      "sha256": "43a51543a0e2e8ae6ba296ae4867018a2ffae6badbac70eec4b212731a73524a",
+      "size": [
+        1176,
+        442
+      ]
+    },
+    {
+      "path": "comparisons/realistic-clean-codiff-gradient-200pct.png",
+      "sha256": "033aea64b874098a189931a9059b30bac24e40f10db085e46e88cb71c4f746cf",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "assets/5d8ca07f96e60ea7654221e1aceaa110636e77c37cf96deee895a400a5535cf6.png",
+      "sha256": "5d8ca07f96e60ea7654221e1aceaa110636e77c37cf96deee895a400a5535cf6",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "assets/1150efc74cbc9b496db1e6642f573855ba09ad0d675af8b6b24fcdd8f1fab9bf.png",
+      "sha256": "1150efc74cbc9b496db1e6642f573855ba09ad0d675af8b6b24fcdd8f1fab9bf",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "assets/d874a332904775c85fdad04736cd3d4dc711408bb8e6c6544f7b636c7ba5deb9.png",
+      "sha256": "d874a332904775c85fdad04736cd3d4dc711408bb8e6c6544f7b636c7ba5deb9",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/oil-q10-swinir-full-preview.png",
+      "sha256": "7c60496570a78632f5168893725bf80fed64d075538d0e270b96753f6f3ff74d",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/oil-q10-swinir-shape-100pct.png",
+      "sha256": "388beb0e8d915abf0c1c66c76b410dbdb593d7c9c6a48c474447bcfec6258091",
+      "size": [
+        1944,
+        718
+      ]
+    },
+    {
+      "path": "comparisons/oil-q10-swinir-shape-200pct.png",
+      "sha256": "e6587c7e12fc8d4fad4212778bce291858d9da9c3dc0adeb9704d1353498e7e0",
+      "size": [
+        3864,
+        1378
+      ]
+    },
+    {
+      "path": "comparisons/oil-q10-swinir-edge-100pct.png",
+      "sha256": "25dfb8e0f9a5e914b42aca08328eba01d62f527d10b4a3ff3c5d17b2b4fda5c3",
+      "size": [
+        1152,
+        626
+      ]
+    },
+    {
+      "path": "comparisons/oil-q10-swinir-edge-200pct.png",
+      "sha256": "aa696774b99969e86288d04bd69a63d259269bc881ff5892bcd6405d54300c6d",
+      "size": [
+        2280,
+        1194
+      ]
+    },
+    {
+      "path": "comparisons/oil-q10-swinir-texture-100pct.png",
+      "sha256": "5a455f5b4ff0f604558c9fd8272cc2730035eb3e3ba2c0cafc5cbf6485e4ef16",
+      "size": [
+        1908,
+        438
+      ]
+    },
+    {
+      "path": "comparisons/oil-q10-swinir-texture-200pct.png",
+      "sha256": "119c7ff4f66e31fd7fa09f7e535ef3b3b1264059533a1b88197c500d3a54e3a6",
+      "size": [
+        3792,
+        818
+      ]
+    },
+    {
+      "path": "assets/fa36304fd3a90aff84b204d90003dfbd5a91c08fb45bcbd4069a7583f826a55f.png",
+      "sha256": "fa36304fd3a90aff84b204d90003dfbd5a91c08fb45bcbd4069a7583f826a55f",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/oil-q10-codiff-full-preview.png",
+      "sha256": "603be1decc3613a052d7265fa27665bae46db0c56595959ad65bb4e79afe38be",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/oil-q10-codiff-shape-100pct.png",
+      "sha256": "f688c4bdfbfa7a3ab864adce6e0625ae6b2736701194230d0af0f60982610e35",
+      "size": [
+        1944,
+        718
+      ]
+    },
+    {
+      "path": "comparisons/oil-q10-codiff-shape-200pct.png",
+      "sha256": "72f0c5f89f5303c32fb32c5fc3303937e39fbe69bdb7e6fdb09e1ecb99ecb328",
+      "size": [
+        3864,
+        1378
+      ]
+    },
+    {
+      "path": "comparisons/oil-q10-codiff-edge-100pct.png",
+      "sha256": "a06c6a7f18103d5f748be2f34b0dea105e31c92b3900612fbbe639ad692e3959",
+      "size": [
+        1152,
+        626
+      ]
+    },
+    {
+      "path": "comparisons/oil-q10-codiff-edge-200pct.png",
+      "sha256": "5c1e8f916e965be533da564f79288453a304bdfa497ca9605401ca411a1713dc",
+      "size": [
+        2280,
+        1194
+      ]
+    },
+    {
+      "path": "comparisons/oil-q10-codiff-texture-100pct.png",
+      "sha256": "2938aec0d2fe1297fa1c4c1c15ff842cbd376f1c278b425a3711058929f2d7a1",
+      "size": [
+        1908,
+        438
+      ]
+    },
+    {
+      "path": "comparisons/oil-q10-codiff-texture-200pct.png",
+      "sha256": "8660d767b2e81b4bd9ffcdd2beb4410e6f7a8015543d19f7c8e986914758a0ae",
+      "size": [
+        3792,
+        818
+      ]
+    },
+    {
+      "path": "assets/d9cf413fdbc3db4afc62de2b937359ba92c805b4f5e809b4b96c7c84a37155c1.png",
+      "sha256": "d9cf413fdbc3db4afc62de2b937359ba92c805b4f5e809b4b96c7c84a37155c1",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "assets/3301c055e38f97e5337d941a887bc159ef788510d3ce3c29eb4972cab9aa6883.png",
+      "sha256": "3301c055e38f97e5337d941a887bc159ef788510d3ce3c29eb4972cab9aa6883",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/oil-q20-swinir-full-preview.png",
+      "sha256": "1e4577c1270c3f7eaf07c0f82650bbbc3291bfff84afd507a8f162c5cd3c9507",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/oil-q20-swinir-shape-100pct.png",
+      "sha256": "0e72406fa524f5db4eef43c6e6c14928278bed569c1c191b490df47e27845d2c",
+      "size": [
+        1944,
+        718
+      ]
+    },
+    {
+      "path": "comparisons/oil-q20-swinir-shape-200pct.png",
+      "sha256": "5403bd3b0a923d9936851cc8d85665704436dacb758179465c1b0f20b619b306",
+      "size": [
+        3864,
+        1378
+      ]
+    },
+    {
+      "path": "comparisons/oil-q20-swinir-edge-100pct.png",
+      "sha256": "b19498f2a0358c8aac8f5ed2765b542ad3e21423a8dc22ee40e379d8f713f557",
+      "size": [
+        1152,
+        626
+      ]
+    },
+    {
+      "path": "comparisons/oil-q20-swinir-edge-200pct.png",
+      "sha256": "c33a6de1150a6f48024dc98407bcd3ebd2656d036ecc85fac3c349df88e39c14",
+      "size": [
+        2280,
+        1194
+      ]
+    },
+    {
+      "path": "comparisons/oil-q20-swinir-texture-100pct.png",
+      "sha256": "ad3cba1460d0960c07c295637773bde56bc99669fe67e9d78d58211461a4f1c2",
+      "size": [
+        1908,
+        438
+      ]
+    },
+    {
+      "path": "comparisons/oil-q20-swinir-texture-200pct.png",
+      "sha256": "1467b8dd4736f27f213b9191e4885d4022be7dc4b134e8f07ced482668b94b28",
+      "size": [
+        3792,
+        818
+      ]
+    },
+    {
+      "path": "assets/accd09372bd286bfb4155f2ca0f21c326f6e8c3e0e737a530e0fe4228783937e.png",
+      "sha256": "accd09372bd286bfb4155f2ca0f21c326f6e8c3e0e737a530e0fe4228783937e",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/oil-q20-codiff-full-preview.png",
+      "sha256": "f485205999b9589670e6fef74476cde02478bc9520732b963b43d845f14b842c",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/oil-q20-codiff-shape-100pct.png",
+      "sha256": "a5d55695096a4fa2b34e9442f99b19155d7c8b574ce4730f78966a4d57566f08",
+      "size": [
+        1944,
+        718
+      ]
+    },
+    {
+      "path": "comparisons/oil-q20-codiff-shape-200pct.png",
+      "sha256": "f9cbce6a3302b88068728a208eb926c4576ad896ee364f774406474e58dd0b17",
+      "size": [
+        3864,
+        1378
+      ]
+    },
+    {
+      "path": "comparisons/oil-q20-codiff-edge-100pct.png",
+      "sha256": "d57f2ef5505e66cdbf881effa99f4920c4b0141a5965f547128f0d7fee8c009f",
+      "size": [
+        1152,
+        626
+      ]
+    },
+    {
+      "path": "comparisons/oil-q20-codiff-edge-200pct.png",
+      "sha256": "05c542398a3a061bf860464d032a029218fc84c020892cb356f3992df6929e40",
+      "size": [
+        2280,
+        1194
+      ]
+    },
+    {
+      "path": "comparisons/oil-q20-codiff-texture-100pct.png",
+      "sha256": "f19c7bc912f660c8e097b59676681ed815c30ab06c124fee509c606f30b483ea",
+      "size": [
+        1908,
+        438
+      ]
+    },
+    {
+      "path": "comparisons/oil-q20-codiff-texture-200pct.png",
+      "sha256": "51cc1d0009932f1414d00b63b8f17a90e3e366409b4501e9d8a287c77605fe8f",
+      "size": [
+        3792,
+        818
+      ]
+    },
+    {
+      "path": "assets/4cb89c1df395f1fa93030758056d10053db4c1c0ba46643eb1820021d8959df8.png",
+      "sha256": "4cb89c1df395f1fa93030758056d10053db4c1c0ba46643eb1820021d8959df8",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "assets/8a7a2f1c5a62ba5a4cd73983531f0bf2c3cb3f472af4af748f1eefe063280543.png",
+      "sha256": "8a7a2f1c5a62ba5a4cd73983531f0bf2c3cb3f472af4af748f1eefe063280543",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/oil-q40-swinir-full-preview.png",
+      "sha256": "4e03d8a0c451cb50ebd1c2914932071d3f6b5d8d15fc0f904539836cc8f80144",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/oil-q40-swinir-shape-100pct.png",
+      "sha256": "b5f5bcf3891a902817d9ed7f430f0d23eeb76ab8f628f0536ba4227ebeb60aa7",
+      "size": [
+        1944,
+        718
+      ]
+    },
+    {
+      "path": "comparisons/oil-q40-swinir-shape-200pct.png",
+      "sha256": "1c116640624042ed7d363321a3e0385f4eaf0ab9922e96bfded24ec5b511d028",
+      "size": [
+        3864,
+        1378
+      ]
+    },
+    {
+      "path": "comparisons/oil-q40-swinir-edge-100pct.png",
+      "sha256": "abb4dcf333ff02ada7ad8138500d507ac915b95d8e1217d577561e44eaf3241b",
+      "size": [
+        1152,
+        626
+      ]
+    },
+    {
+      "path": "comparisons/oil-q40-swinir-edge-200pct.png",
+      "sha256": "16eb0bb0b9e82053c9c8c109fc47f93528ba570c348e2f0555c9913d57a3eb30",
+      "size": [
+        2280,
+        1194
+      ]
+    },
+    {
+      "path": "comparisons/oil-q40-swinir-texture-100pct.png",
+      "sha256": "3ba25d49bf2e964aa6f3ca637ea062d288d21157c2189814895db5a26cc82c87",
+      "size": [
+        1908,
+        438
+      ]
+    },
+    {
+      "path": "comparisons/oil-q40-swinir-texture-200pct.png",
+      "sha256": "8ce53be4adc9bf6cb27c5b31e83c69a698c3c3601741399a706acc8b1e623965",
+      "size": [
+        3792,
+        818
+      ]
+    },
+    {
+      "path": "assets/1ebad5dde19527a9c559b0d821f68c3547533506d06d8a70898e84b424644490.png",
+      "sha256": "1ebad5dde19527a9c559b0d821f68c3547533506d06d8a70898e84b424644490",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/oil-q40-codiff-full-preview.png",
+      "sha256": "cc165b5ac09e4297b3bf42268202cc2e5d089d85fc017367f74f9b38189adf4c",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/oil-q40-codiff-shape-100pct.png",
+      "sha256": "c33c5d57a49d5819ceabc1551d469fc44d2abe140dad5114b631d07389ae185d",
+      "size": [
+        1944,
+        718
+      ]
+    },
+    {
+      "path": "comparisons/oil-q40-codiff-shape-200pct.png",
+      "sha256": "d6b3cd181b5ac4765ef84838fc55464b118b29109eea17611ebd4b1e984f00ab",
+      "size": [
+        3864,
+        1378
+      ]
+    },
+    {
+      "path": "comparisons/oil-q40-codiff-edge-100pct.png",
+      "sha256": "b9eeac81d483e41a598eba58bb587f51ea2f71fa46d5cc6a51cd25ced3d28cee",
+      "size": [
+        1152,
+        626
+      ]
+    },
+    {
+      "path": "comparisons/oil-q40-codiff-edge-200pct.png",
+      "sha256": "e1d2325667021e9e927ecf950da95785b9760286784843b9289b3336fccfc052",
+      "size": [
+        2280,
+        1194
+      ]
+    },
+    {
+      "path": "comparisons/oil-q40-codiff-texture-100pct.png",
+      "sha256": "d5738a01349e8203d391f7cadd26f2d5cb400afbfd9a62c86a7851dc828535a0",
+      "size": [
+        1908,
+        438
+      ]
+    },
+    {
+      "path": "comparisons/oil-q40-codiff-texture-200pct.png",
+      "sha256": "e469b81dcd7f3e4ec00bfa7be8fbbef6ac52a12684f43866956f4eda3f10fdfe",
+      "size": [
+        3792,
+        818
+      ]
+    },
+    {
+      "path": "assets/92f78cfd6397abf707754d590722c499c3a26f0031ac827540d74da52a5fd9e6.png",
+      "sha256": "92f78cfd6397abf707754d590722c499c3a26f0031ac827540d74da52a5fd9e6",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "assets/196e5a5279dc6929923ac8e73f21717c35b54e136c7fa676e5cb58d2a332c183.png",
+      "sha256": "196e5a5279dc6929923ac8e73f21717c35b54e136c7fa676e5cb58d2a332c183",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/oil-q60-swinir-full-preview.png",
+      "sha256": "06afafdb685b7413dc49f20fb7b2c02c46a4c88484639b939af41c26137121de",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/oil-q60-swinir-shape-100pct.png",
+      "sha256": "ead756a53e2789e73ec3c335541c56ac1aa536ff4e021067056b621237b9e14f",
+      "size": [
+        1944,
+        718
+      ]
+    },
+    {
+      "path": "comparisons/oil-q60-swinir-shape-200pct.png",
+      "sha256": "aa86ce827631cfae3c6fab016909ef0b7070c078daee44b13e28a42f02ee46d7",
+      "size": [
+        3864,
+        1378
+      ]
+    },
+    {
+      "path": "comparisons/oil-q60-swinir-edge-100pct.png",
+      "sha256": "f426d9482ab0ef03f5592b277e3f370ac440d080d9f6d9d11341df374cf47a22",
+      "size": [
+        1152,
+        626
+      ]
+    },
+    {
+      "path": "comparisons/oil-q60-swinir-edge-200pct.png",
+      "sha256": "d4d6090d04e52668e2f521a1583b3f1c7f66b696d7efbc2b440331d72efc5fa5",
+      "size": [
+        2280,
+        1194
+      ]
+    },
+    {
+      "path": "comparisons/oil-q60-swinir-texture-100pct.png",
+      "sha256": "a13a117b7f4f26c41157ba05573d82cade6e4ffc49b37592410c39555cdbd221",
+      "size": [
+        1908,
+        438
+      ]
+    },
+    {
+      "path": "comparisons/oil-q60-swinir-texture-200pct.png",
+      "sha256": "8552a29915e2b66f5843a93cc3f11a19569078e9e31c1dbf186bcad4e3398a0d",
+      "size": [
+        3792,
+        818
+      ]
+    },
+    {
+      "path": "assets/cf16b87bbf3d842861301098989e4f8e17bb838b931560f91dd71c21d4887b7a.png",
+      "sha256": "cf16b87bbf3d842861301098989e4f8e17bb838b931560f91dd71c21d4887b7a",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/oil-q60-codiff-full-preview.png",
+      "sha256": "18b57f3fce6bf54771f95e0d1585d262c0eb01ae496ee95bb8fb12d09c98fcab",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/oil-q60-codiff-shape-100pct.png",
+      "sha256": "83f96699a3919a9a1a0d38280a5e1b97be1a06791568c777e29c749818d357c5",
+      "size": [
+        1944,
+        718
+      ]
+    },
+    {
+      "path": "comparisons/oil-q60-codiff-shape-200pct.png",
+      "sha256": "c2c0bf0801ecfc259c9f39ea2514b2af20c9d4da17304039510202b18f15999a",
+      "size": [
+        3864,
+        1378
+      ]
+    },
+    {
+      "path": "comparisons/oil-q60-codiff-edge-100pct.png",
+      "sha256": "dba56ef8b9361b11d2890ab3f37db3263500f004ccb0ca966abf916491019941",
+      "size": [
+        1152,
+        626
+      ]
+    },
+    {
+      "path": "comparisons/oil-q60-codiff-edge-200pct.png",
+      "sha256": "b0bbcca54ed97200c8087f3e5d515363ab9ba99ec5c2bcc117ef30081cc217bb",
+      "size": [
+        2280,
+        1194
+      ]
+    },
+    {
+      "path": "comparisons/oil-q60-codiff-texture-100pct.png",
+      "sha256": "e3f96b393a9c000fe9471f879f7d0a118a28e7479eba4a29f5ee28eb64d09142",
+      "size": [
+        1908,
+        438
+      ]
+    },
+    {
+      "path": "comparisons/oil-q60-codiff-texture-200pct.png",
+      "sha256": "b1108a0e12dc7b1823d22b48e2e2d5acf584860b9ed939eca02b174e69c9017c",
+      "size": [
+        3792,
+        818
+      ]
+    },
+    {
+      "path": "assets/4f95ec3ee2a3749f4e8fad67dedc10063c3a26a1775f029890a0fe39ec36f150.png",
+      "sha256": "4f95ec3ee2a3749f4e8fad67dedc10063c3a26a1775f029890a0fe39ec36f150",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/oil-clean-swinir-full-preview.png",
+      "sha256": "a3752c3509cab9e3e851806c1cb7c8051f67933a049736568cd783cfea1204f4",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/oil-clean-swinir-shape-100pct.png",
+      "sha256": "493a5a2b582dfd0a875500214f642a1caeab55544db7b68875584e9b2e29d88f",
+      "size": [
+        1944,
+        718
+      ]
+    },
+    {
+      "path": "comparisons/oil-clean-swinir-shape-200pct.png",
+      "sha256": "ecf303af330d1feba5f8a9e7f93457206057f1b7fcfc0c29bff1dfee2864c092",
+      "size": [
+        3864,
+        1378
+      ]
+    },
+    {
+      "path": "comparisons/oil-clean-swinir-edge-100pct.png",
+      "sha256": "bb0bf43cc9a6f715446445d83d22b58f4c9fac0a4921b6a7bc7b5f2f47e2999b",
+      "size": [
+        1152,
+        626
+      ]
+    },
+    {
+      "path": "comparisons/oil-clean-swinir-edge-200pct.png",
+      "sha256": "b95dc80677956429d6afec5f45309ab0231bd0b11fecb48f258c2a2f2ecc6b61",
+      "size": [
+        2280,
+        1194
+      ]
+    },
+    {
+      "path": "comparisons/oil-clean-swinir-texture-100pct.png",
+      "sha256": "e82ba7aeaf4280b334bc90ef7abab30e9d17c6cd2dde16afdb1214867a553c9e",
+      "size": [
+        1908,
+        438
+      ]
+    },
+    {
+      "path": "comparisons/oil-clean-swinir-texture-200pct.png",
+      "sha256": "1bf6b134b35a2800132f28c4b086aebb7d48d29ab988dafe444368ebb48325c5",
+      "size": [
+        3792,
+        818
+      ]
+    },
+    {
+      "path": "assets/96ed16b2ec27dafcb5a36ee1e6479916c1d7bb35643eabf375f534dcc521c3d4.png",
+      "sha256": "96ed16b2ec27dafcb5a36ee1e6479916c1d7bb35643eabf375f534dcc521c3d4",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/oil-clean-codiff-full-preview.png",
+      "sha256": "d76c7a2c8e6746f29ee0c28c405c41e478b732ae089e9b22a4124021fa483ad0",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/oil-clean-codiff-shape-100pct.png",
+      "sha256": "8c57815cef459feb92a55c0480fb00fde5b9683ae4968c937b9f957a31dfee71",
+      "size": [
+        1944,
+        718
+      ]
+    },
+    {
+      "path": "comparisons/oil-clean-codiff-shape-200pct.png",
+      "sha256": "db2c594662b9c0b0e255d0acbf2b1afc4bbbe2af8d57baeb4a3a7ec4d2930e40",
+      "size": [
+        3864,
+        1378
+      ]
+    },
+    {
+      "path": "comparisons/oil-clean-codiff-edge-100pct.png",
+      "sha256": "60343363bf9aabe5980ccaa3c210abfa70fdc0c174cc0d5073440a13fba28430",
+      "size": [
+        1152,
+        626
+      ]
+    },
+    {
+      "path": "comparisons/oil-clean-codiff-edge-200pct.png",
+      "sha256": "01e53c00eb99fd63e5a992b255b55d03f74e1bb15d6ba5a2b36c50b9a79fb16e",
+      "size": [
+        2280,
+        1194
+      ]
+    },
+    {
+      "path": "comparisons/oil-clean-codiff-texture-100pct.png",
+      "sha256": "9bdffcacf32fcebbd5839d7a4667f3ec50a997328194b6384d0ee1dc98002a57",
+      "size": [
+        1908,
+        438
+      ]
+    },
+    {
+      "path": "comparisons/oil-clean-codiff-texture-200pct.png",
+      "sha256": "5641eb6c3fdcf13539ccd5e267f397b151beb6fd24d3bc5284c0ebc4b57e01d7",
+      "size": [
+        3792,
+        818
+      ]
+    },
+    {
+      "path": "assets/ac90d63276e4798eee5412c8c7dfcef5ebae8706b63560eba9664079dc8be341.png",
+      "sha256": "ac90d63276e4798eee5412c8c7dfcef5ebae8706b63560eba9664079dc8be341",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "assets/9a2f8d5688e96db77e064c5958c85c10a60437dad75c618abd191aa8999226ca.png",
+      "sha256": "9a2f8d5688e96db77e064c5958c85c10a60437dad75c618abd191aa8999226ca",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "assets/fc18015fb386bb30237c91f76f6f1c9efbe94bc64da7ed918aeffacebc134b1a.png",
+      "sha256": "fc18015fb386bb30237c91f76f6f1c9efbe94bc64da7ed918aeffacebc134b1a",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q10-swinir-full-preview.png",
+      "sha256": "1eed75ea6e71bf752f001c43f380ccbb354ec0fc3b5a1b76ac74bf80fac636c0",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q10-swinir-shape-100pct.png",
+      "sha256": "ce83a62948ee734e3736b658a08a6ec289dd848b0d51385912c8af3b9fe5e704",
+      "size": [
+        1584,
+        386
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q10-swinir-shape-200pct.png",
+      "sha256": "ec5ee5e1274881943b96d3a02e98f25ee520c81a01dbe4e1787ef3a2ff286500",
+      "size": [
+        3144,
+        714
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q10-swinir-edge-100pct.png",
+      "sha256": "94e392d660daed7e860f5953bfbd378a129c281859781bbf5cc5256bce3f54ca",
+      "size": [
+        552,
+        546
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q10-swinir-edge-200pct.png",
+      "sha256": "38f8c15a6cc34665dda1e5a4be7838f5594f825d60ce2109a5302120dd0122e1",
+      "size": [
+        1080,
+        1034
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q10-swinir-texture-100pct.png",
+      "sha256": "d8eb3557e4cc586d6c3257d294029bca36f1b019cca16ff0d46c1dc0b5f86eea",
+      "size": [
+        1536,
+        514
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q10-swinir-texture-200pct.png",
+      "sha256": "a12baa1e6de8955b6359d7deb3c523328f161a6a305120ba760223408e6e0345",
+      "size": [
+        3048,
+        970
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q10-swinir-signature-100pct.png",
+      "sha256": "780f8753ac5a96e4df6dc497d7524d8b71733193a774d3a92915087005eb3cb7",
+      "size": [
+        1032,
+        202
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q10-swinir-signature-200pct.png",
+      "sha256": "623870c60e31a47d5c6067aa807bdf85891cd5516e6df98e3b72737f5d248768",
+      "size": [
+        2040,
+        346
+      ]
+    },
+    {
+      "path": "assets/dca613a89200d591096cb8045960da207ab21cdda256f3f4242736088b915b4a.png",
+      "sha256": "dca613a89200d591096cb8045960da207ab21cdda256f3f4242736088b915b4a",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q10-codiff-full-preview.png",
+      "sha256": "93d6ec0c87b39bff3a343a498a71091d8c1b484cae5b3203f30696ee3cc12bea",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q10-codiff-shape-100pct.png",
+      "sha256": "c5a43c86b72eb53543e8b47fa287da4f52f6fe11805c957df91806c2c696f343",
+      "size": [
+        1584,
+        386
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q10-codiff-shape-200pct.png",
+      "sha256": "386462f166bfb31784f24539342d89ba92babf4faa191b50016ef6f2cf9e5990",
+      "size": [
+        3144,
+        714
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q10-codiff-edge-100pct.png",
+      "sha256": "c573141e8290fb92e14d882cde34705d78a1ce11ce473f7902ee8bbbbc814fb2",
+      "size": [
+        552,
+        546
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q10-codiff-edge-200pct.png",
+      "sha256": "c45419190e8e3e54d5c51a5812eba307fd1860f8af007918d29529e5e5c611f3",
+      "size": [
+        1080,
+        1034
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q10-codiff-texture-100pct.png",
+      "sha256": "1e2022f5191d93417e91c8e3f10fefe8c175b11b3e0468b908da9e55f2a1841e",
+      "size": [
+        1536,
+        514
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q10-codiff-texture-200pct.png",
+      "sha256": "5ce95022c3557ae484460a6aa6e74a7f480aedbfb3774c3895e53de38ef51317",
+      "size": [
+        3048,
+        970
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q10-codiff-signature-100pct.png",
+      "sha256": "7b07c0ae16e6bad5c4a1661424914f5d3a1914033d29e5d83b81c91ea34f03bb",
+      "size": [
+        1032,
+        202
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q10-codiff-signature-200pct.png",
+      "sha256": "5560455226f0d62eee48cbd71357a830a253cc487e7b91a8361e0f7a48ac9b20",
+      "size": [
+        2040,
+        346
+      ]
+    },
+    {
+      "path": "assets/9552de614fd1137757031601e18dbc27873a84d5994b7790508a91ca8ec37f4b.png",
+      "sha256": "9552de614fd1137757031601e18dbc27873a84d5994b7790508a91ca8ec37f4b",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "assets/8919b88b018e164062954bab8b3431161f93577256193ef940f1bf046cc3d7d8.png",
+      "sha256": "8919b88b018e164062954bab8b3431161f93577256193ef940f1bf046cc3d7d8",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q20-swinir-full-preview.png",
+      "sha256": "22b32674dcb6b6fdb47da620f17d91830372d742035f8c678bebfcba19981046",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q20-swinir-shape-100pct.png",
+      "sha256": "3e12ee204cca0efdcb2d0ed19bab5e2caf9290799c02842045e2f10ea4013d49",
+      "size": [
+        1584,
+        386
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q20-swinir-shape-200pct.png",
+      "sha256": "dea0cf495c6ea89fa1f12a544e0dd09c09ebe43f49e49888e0863e8d1ca1cbab",
+      "size": [
+        3144,
+        714
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q20-swinir-edge-100pct.png",
+      "sha256": "21b723b387ce95084a3b2a580efe73a09db0888b481b02c7b7e5262c66b0eb7e",
+      "size": [
+        552,
+        546
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q20-swinir-edge-200pct.png",
+      "sha256": "ac472e4cc83391b2ab3412a7ed6ee00e618620bfdd4df3673a5b2d7d86a59d3d",
+      "size": [
+        1080,
+        1034
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q20-swinir-texture-100pct.png",
+      "sha256": "fafc5e89aaf099cbd46b475d798daa2d894b7acaf87c2909f778d06597d62ae8",
+      "size": [
+        1536,
+        514
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q20-swinir-texture-200pct.png",
+      "sha256": "c2081a25fa320856b752d2e21b53e94ea34e5a5c446994a6e3f11e9956a1cff2",
+      "size": [
+        3048,
+        970
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q20-swinir-signature-100pct.png",
+      "sha256": "6a2cd829ce8322c33b13a707bcf585e6aa4457e8235c0634fdc78e33641f5fcd",
+      "size": [
+        1032,
+        202
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q20-swinir-signature-200pct.png",
+      "sha256": "9fb35fbc44ed178485a319fa6e2a2cf0d64696d61d888d334ea7c143503a060a",
+      "size": [
+        2040,
+        346
+      ]
+    },
+    {
+      "path": "assets/a2630a5aa336cfd777dc3ddb89787d917c1a2307e0a89698464379e78d9baa85.png",
+      "sha256": "a2630a5aa336cfd777dc3ddb89787d917c1a2307e0a89698464379e78d9baa85",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q20-codiff-full-preview.png",
+      "sha256": "838f790c4ece62465842f48afde35d6e3b5eef2eecd6a7d090e28b814e88b50a",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q20-codiff-shape-100pct.png",
+      "sha256": "ea745160c30088c276d5ccb87210c371c91f2052865653322639b389e58a8326",
+      "size": [
+        1584,
+        386
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q20-codiff-shape-200pct.png",
+      "sha256": "f9754ef9979509c696128d5b55dfd51dd3f1629c179bf893a7bd885f2e0aa4b2",
+      "size": [
+        3144,
+        714
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q20-codiff-edge-100pct.png",
+      "sha256": "3e34a25e828eed0ea2558ed0af5a3bd75e6f08aac4c565f5da2e7391955ca413",
+      "size": [
+        552,
+        546
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q20-codiff-edge-200pct.png",
+      "sha256": "28084554e1f94ca5dbb612ae8a22d366dd6915230e9a16bb8468328348c86fc8",
+      "size": [
+        1080,
+        1034
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q20-codiff-texture-100pct.png",
+      "sha256": "566f34101702f0007fa299ea72ddde2dea72d3987c8cbfbe6e2bb873603dab12",
+      "size": [
+        1536,
+        514
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q20-codiff-texture-200pct.png",
+      "sha256": "bb210e4b3d7ea8d89292e010234ab6a534dd036c9f272437f40920b144c79070",
+      "size": [
+        3048,
+        970
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q20-codiff-signature-100pct.png",
+      "sha256": "cb3bf79ad806fcad8d21a9dbccc94a3f074fafa25132b231297ab93f3f9f78a5",
+      "size": [
+        1032,
+        202
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q20-codiff-signature-200pct.png",
+      "sha256": "20aea2f74771869c5ab439599803cb19de17efd24cbb89bd9fb928f23814a689",
+      "size": [
+        2040,
+        346
+      ]
+    },
+    {
+      "path": "assets/ff2a6ae8379909b4eed44fc0033974afed459899b36a27652a07b78ca8dc71a2.png",
+      "sha256": "ff2a6ae8379909b4eed44fc0033974afed459899b36a27652a07b78ca8dc71a2",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "assets/91827284dbcb2ec9b6004b5b458103823eb226fcfc85962bb128d5c55f686ba2.png",
+      "sha256": "91827284dbcb2ec9b6004b5b458103823eb226fcfc85962bb128d5c55f686ba2",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q40-swinir-full-preview.png",
+      "sha256": "cedd757c9aa5911b1f57fc85bfb6bc02a4be60d11654053c70f551d2f94edb32",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q40-swinir-shape-100pct.png",
+      "sha256": "e996a2f9fa2f54e146b3cf3d2b4d2f95211b1701286bef43e41ab6d235616cf2",
+      "size": [
+        1584,
+        386
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q40-swinir-shape-200pct.png",
+      "sha256": "5f0167a1da4190117127ee7ba55c9c80f052bdfd2ca4058699678f02bdaec0d5",
+      "size": [
+        3144,
+        714
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q40-swinir-edge-100pct.png",
+      "sha256": "96a4653b1acaff5bf05b57b1aa577e94c4fa066944954085301b69bd12dc72ec",
+      "size": [
+        552,
+        546
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q40-swinir-edge-200pct.png",
+      "sha256": "9618f39cfeda16753690ce496ffde7ab407a8cc281769f841315ec2147771c07",
+      "size": [
+        1080,
+        1034
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q40-swinir-texture-100pct.png",
+      "sha256": "77110d7a3ec89b4dc823f2142e0dd24059e64e56604cc65a709b93e7a98383fe",
+      "size": [
+        1536,
+        514
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q40-swinir-texture-200pct.png",
+      "sha256": "3d13f73d552d60d44aefe6147be9b36935aecb5ab838a7e19d0ce06ab90d8ee0",
+      "size": [
+        3048,
+        970
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q40-swinir-signature-100pct.png",
+      "sha256": "1be8649b8693c7224abf852d048c6ee57f22562f1875f1e72a93c4d5bb3d9de8",
+      "size": [
+        1032,
+        202
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q40-swinir-signature-200pct.png",
+      "sha256": "97dcf151503a0e51acb8c7eb5f896611f4f6bb373917467d1fb4ac27c1a12f41",
+      "size": [
+        2040,
+        346
+      ]
+    },
+    {
+      "path": "assets/7f50f012799fbde35e2ad201c6af4301c792771080763a0c6cc0cf87a4825712.png",
+      "sha256": "7f50f012799fbde35e2ad201c6af4301c792771080763a0c6cc0cf87a4825712",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q40-codiff-full-preview.png",
+      "sha256": "ec95d08dd0e7720a0991f541d5c4a91c46959b2c436e945bb5b65a59b67cc5fc",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q40-codiff-shape-100pct.png",
+      "sha256": "70aeee34b3f406806e0679c58f6ca7dfaf4db5b86a58514b467f9997dc5311c0",
+      "size": [
+        1584,
+        386
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q40-codiff-shape-200pct.png",
+      "sha256": "851b9042e539e6f156b43f63075a2bdf6df8fda408e227b7a78e888d01988858",
+      "size": [
+        3144,
+        714
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q40-codiff-edge-100pct.png",
+      "sha256": "336778b5cfef06aa4cafb0278e5039d9f5c412b4ecc17793159a1da521b92d5e",
+      "size": [
+        552,
+        546
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q40-codiff-edge-200pct.png",
+      "sha256": "580dd22beac2f8917e089d8db8639b09227287b37bc0304778f5bde5978f5960",
+      "size": [
+        1080,
+        1034
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q40-codiff-texture-100pct.png",
+      "sha256": "d4c9b772ea30851ccb8fccf89272cd1be77c76ad92eb6cea63b5d8f314307382",
+      "size": [
+        1536,
+        514
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q40-codiff-texture-200pct.png",
+      "sha256": "ea7f1203a0e0c6160bf018bcad93731e644473dc17f172b650d89741c21ecf9d",
+      "size": [
+        3048,
+        970
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q40-codiff-signature-100pct.png",
+      "sha256": "751fbdb7a6f2cba5c0a6c2b3300ac31661ee1d928e97baafd6fa62cbc8e40ca0",
+      "size": [
+        1032,
+        202
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q40-codiff-signature-200pct.png",
+      "sha256": "fdb5c7182488fc73d413577def081e28881d10a73dda758f6b22bf4e21e30cb4",
+      "size": [
+        2040,
+        346
+      ]
+    },
+    {
+      "path": "assets/6212d996d20843c251f945d8defe704a1e8f4b18323eb1879c5effdd308a8627.png",
+      "sha256": "6212d996d20843c251f945d8defe704a1e8f4b18323eb1879c5effdd308a8627",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "assets/8d5b55af911be26bf52ee052b5574a3bd8837fbfb0e934f586a279b564a6e667.png",
+      "sha256": "8d5b55af911be26bf52ee052b5574a3bd8837fbfb0e934f586a279b564a6e667",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q60-swinir-full-preview.png",
+      "sha256": "ac33ea1fa2545297785a054331886894efc9c744ed94785105b09ca629cbefe5",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q60-swinir-shape-100pct.png",
+      "sha256": "1fd2e035d39173ce4dec036f0b8928174d117807ed4a1d11a3ffd83d87208521",
+      "size": [
+        1584,
+        386
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q60-swinir-shape-200pct.png",
+      "sha256": "66ff555f1b0e8484a6f9236a2a49c8aa49ea7ccfbe06a558e5c6bb3e71983922",
+      "size": [
+        3144,
+        714
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q60-swinir-edge-100pct.png",
+      "sha256": "992d43f98d3f71f58410f9481d9cc207c9e201f675bafbdbf3dc563995bf719b",
+      "size": [
+        552,
+        546
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q60-swinir-edge-200pct.png",
+      "sha256": "f012e60275e6673074700f566c5c46081825f056ab4e641357c2c005dde20197",
+      "size": [
+        1080,
+        1034
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q60-swinir-texture-100pct.png",
+      "sha256": "a2a3416bebdec0946a7b1841350948fc39edd9dd0f056b79cdeaf38be6dbe666",
+      "size": [
+        1536,
+        514
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q60-swinir-texture-200pct.png",
+      "sha256": "b7b04100107e1681eeb4d32755380200768fa49e6d77b5d90f06d1864af05121",
+      "size": [
+        3048,
+        970
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q60-swinir-signature-100pct.png",
+      "sha256": "bd935058536b0d447bd2ac0776a351357956e55e66f081f7ab0c2ac1c389ede7",
+      "size": [
+        1032,
+        202
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q60-swinir-signature-200pct.png",
+      "sha256": "983b375c2645dd881b1eaf2fda2b2796973e4f3ec40130d2b226ab7dd2753553",
+      "size": [
+        2040,
+        346
+      ]
+    },
+    {
+      "path": "assets/fc815bd848e692a5afbc39e08cd9b6029fab2f83d15a5075690e53d003c7fbc6.png",
+      "sha256": "fc815bd848e692a5afbc39e08cd9b6029fab2f83d15a5075690e53d003c7fbc6",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q60-codiff-full-preview.png",
+      "sha256": "307917d83014caf22e93695cd4c054174107c0325a17c21cfa4f66ea8ab2bf2b",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q60-codiff-shape-100pct.png",
+      "sha256": "7f87d45377ad941c70aa9ee033a0c0cc5732a6ee7523267687227b164836c6f7",
+      "size": [
+        1584,
+        386
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q60-codiff-shape-200pct.png",
+      "sha256": "fe3d9eac48a996f44eec391b2b9d1a289a7c3774c0ef3a8f42e34c86a9a39707",
+      "size": [
+        3144,
+        714
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q60-codiff-edge-100pct.png",
+      "sha256": "4d5f4b3bfa309d16aa76ca8cd2c8379fb6f17d4517f31e92c2e78f5e7027dd75",
+      "size": [
+        552,
+        546
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q60-codiff-edge-200pct.png",
+      "sha256": "a3b0376e999ad595984406ab5a5fd2025cd0c769507a05d2381c5bd2a22ffb88",
+      "size": [
+        1080,
+        1034
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q60-codiff-texture-100pct.png",
+      "sha256": "11e60f5edbbef4692f2bb3c9142147057c9fc61679c56f96d7b94e9711f91c9a",
+      "size": [
+        1536,
+        514
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q60-codiff-texture-200pct.png",
+      "sha256": "33af3e59ffed6ee919a8c2d058044897a0220c8a343351230523075699392373",
+      "size": [
+        3048,
+        970
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q60-codiff-signature-100pct.png",
+      "sha256": "e8cda65abb261d39f38df97e08ee6914211bf5e45591fee264526843e2abc1cd",
+      "size": [
+        1032,
+        202
+      ]
+    },
+    {
+      "path": "comparisons/abstract-q60-codiff-signature-200pct.png",
+      "sha256": "ccd606a0ee386f15dbcd054adb228a763f80522147c6a0ba2a470cd736ef06e5",
+      "size": [
+        2040,
+        346
+      ]
+    },
+    {
+      "path": "assets/874a182a5aa8a728aef6bdbead9596447412cf28d18dddfb77b240615b8fc02d.png",
+      "sha256": "874a182a5aa8a728aef6bdbead9596447412cf28d18dddfb77b240615b8fc02d",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/abstract-clean-swinir-full-preview.png",
+      "sha256": "0dabc9909d7249b4d71cead325295881568097a3cffaad51d2306f7e08ba25fd",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/abstract-clean-swinir-shape-100pct.png",
+      "sha256": "73430b0f6af796a8a749b325e0164ae082681994c29d679748b0845c96c5be84",
+      "size": [
+        1584,
+        386
+      ]
+    },
+    {
+      "path": "comparisons/abstract-clean-swinir-shape-200pct.png",
+      "sha256": "99e1a6448debfb0dcb6ee7a321adbc36be7c2a23919d4c792c485f24e81aaa78",
+      "size": [
+        3144,
+        714
+      ]
+    },
+    {
+      "path": "comparisons/abstract-clean-swinir-edge-100pct.png",
+      "sha256": "aab0d7aede084882b118a4d98725fb326833e40f7ab6929dae4e772b11f106a1",
+      "size": [
+        552,
+        546
+      ]
+    },
+    {
+      "path": "comparisons/abstract-clean-swinir-edge-200pct.png",
+      "sha256": "4cf7a6bfff85cc87e0ae328f7cf6616b7bb3bf06142802f22d2c3b698584973b",
+      "size": [
+        1080,
+        1034
+      ]
+    },
+    {
+      "path": "comparisons/abstract-clean-swinir-texture-100pct.png",
+      "sha256": "2d26add12a5264ed3c0479da60b71cb57522a26e90201349c03fce2c3b0e3317",
+      "size": [
+        1536,
+        514
+      ]
+    },
+    {
+      "path": "comparisons/abstract-clean-swinir-texture-200pct.png",
+      "sha256": "9cafe65e8704c80fe7e28183b7df42a7214e74fd2ed79094c2ee00d029af8958",
+      "size": [
+        3048,
+        970
+      ]
+    },
+    {
+      "path": "comparisons/abstract-clean-swinir-signature-100pct.png",
+      "sha256": "5f55409cd767955e58d2c6a1528efeafd69d0d3564c876c3b2bb9a7bbc781e14",
+      "size": [
+        1032,
+        202
+      ]
+    },
+    {
+      "path": "comparisons/abstract-clean-swinir-signature-200pct.png",
+      "sha256": "99fccaa3dfb1d1f3d658d641946867f00c04087bac1d20c1f243ecbd144b2904",
+      "size": [
+        2040,
+        346
+      ]
+    },
+    {
+      "path": "assets/f6ed27fc1ede9edae2021a9eaae937a3810fd87efa47cfc71ca069baa07e5866.png",
+      "sha256": "f6ed27fc1ede9edae2021a9eaae937a3810fd87efa47cfc71ca069baa07e5866",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/abstract-clean-codiff-full-preview.png",
+      "sha256": "8faa0c2d30ddb5b9fca1d8f9f736a68b300e8e5294fda0a3f64444f7ad72a3ac",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/abstract-clean-codiff-shape-100pct.png",
+      "sha256": "25871eef33d98406d77a5bb76da7e8e12026180350344bcb80a85bc1ff5721fe",
+      "size": [
+        1584,
+        386
+      ]
+    },
+    {
+      "path": "comparisons/abstract-clean-codiff-shape-200pct.png",
+      "sha256": "bf67575c18d89571f16844fa735a07edfbcf0f6c582e6f6f8bd1aa2196f0cd90",
+      "size": [
+        3144,
+        714
+      ]
+    },
+    {
+      "path": "comparisons/abstract-clean-codiff-edge-100pct.png",
+      "sha256": "7796086b8d1cf07ae1aa14cdbef71b93f4c57aad740af413a07811e572b07879",
+      "size": [
+        552,
+        546
+      ]
+    },
+    {
+      "path": "comparisons/abstract-clean-codiff-edge-200pct.png",
+      "sha256": "daff8a00e9d323ea09e257a7f6bd569056e56704cd5b91cc7dcf499d327b61e3",
+      "size": [
+        1080,
+        1034
+      ]
+    },
+    {
+      "path": "comparisons/abstract-clean-codiff-texture-100pct.png",
+      "sha256": "6c8f833b764fc861fc4d2b0f3153e5c6fd42408ba2a503e55a8616d6da1bb95d",
+      "size": [
+        1536,
+        514
+      ]
+    },
+    {
+      "path": "comparisons/abstract-clean-codiff-texture-200pct.png",
+      "sha256": "47753c7058d9259c6885e993b11d530b488d8b2a1b7e13fa55a7e0f43652e0f2",
+      "size": [
+        3048,
+        970
+      ]
+    },
+    {
+      "path": "comparisons/abstract-clean-codiff-signature-100pct.png",
+      "sha256": "a0eb4e1cc4d85de39b361f4f5e9a8f8641cef17773b5382d88eaa90b1e3eb724",
+      "size": [
+        1032,
+        202
+      ]
+    },
+    {
+      "path": "comparisons/abstract-clean-codiff-signature-200pct.png",
+      "sha256": "6a67b1661b193e1ebee2c8fe543b6b77c236f6de6c8d761db79369ccb4b2d771",
+      "size": [
+        2040,
+        346
+      ]
+    },
+    {
+      "path": "assets/aff0a0cd02602cc6cda6821e2588c84ab1c4bfe681406caee69588179f01760d.png",
+      "sha256": "aff0a0cd02602cc6cda6821e2588c84ab1c4bfe681406caee69588179f01760d",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "assets/ce2d2a802f2a5842df3669d4e0eec81f3808461bfbb080a61dcde63522244498.png",
+      "sha256": "ce2d2a802f2a5842df3669d4e0eec81f3808461bfbb080a61dcde63522244498",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "assets/fa5ab6879479a0d34e9b0b82cfd35271986b96b727ff74ef083756ff323e079d.png",
+      "sha256": "fa5ab6879479a0d34e9b0b82cfd35271986b96b727ff74ef083756ff323e079d",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q10-swinir-full-preview.png",
+      "sha256": "4268e90a33782a0cc8315bae8ac48662fc8051f92d2241fd9898931c38db4a41",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q10-swinir-eye-100pct.png",
+      "sha256": "6edee5db7af2bdb8f2a9f96c9d9581366339eaa4d4c0cee7b02a70e75e3a3d28",
+      "size": [
+        324,
+        132
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q10-swinir-eye-200pct.png",
+      "sha256": "812f906003c95ca606770a61733d592a8e56837712cf99b409b8177ec1f1ea19",
+      "size": [
+        624,
+        206
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q10-swinir-feathers-100pct.png",
+      "sha256": "07a99f4cbdec4faed40bf1832927d0b43fa75c69c746926b05281e071e57e805",
+      "size": [
+        441,
+        166
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q10-swinir-feathers-200pct.png",
+      "sha256": "3484a356178713b74623b924bd4dd3b67f60d469854d621b5ba88e780f2d6f38",
+      "size": [
+        858,
+        274
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q10-swinir-wash-100pct.png",
+      "sha256": "1a1add629b7c08f171a748d399663488edbc7b277f846abe8ca918b503b13e08",
+      "size": [
+        609,
+        228
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q10-swinir-wash-200pct.png",
+      "sha256": "06816a165edb4bcd592bf82076e7089361b2d6c69c82de5898b4c1a268904314",
+      "size": [
+        1194,
+        398
+      ]
+    },
+    {
+      "path": "assets/c2a6077a5c6e0709f0a69ea248dd77388aab6a3ab146c158fc94d1dce07fbe5d.png",
+      "sha256": "c2a6077a5c6e0709f0a69ea248dd77388aab6a3ab146c158fc94d1dce07fbe5d",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q10-codiff-full-preview.png",
+      "sha256": "53bde775f2d1070dc61a37b8640275bf768543feeccfb49b9926e1124ac23ff3",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q10-codiff-eye-100pct.png",
+      "sha256": "e1a5c9c4034618103af5db61e4170d6860792d54501ced70e84ab1bdc0c90af9",
+      "size": [
+        324,
+        132
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q10-codiff-eye-200pct.png",
+      "sha256": "b50a175dbf48a111b71c6e0315f7aff24773af1d39ed93f59789db91fd0fee6f",
+      "size": [
+        624,
+        206
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q10-codiff-feathers-100pct.png",
+      "sha256": "3baf9374af1a89b01d6caab17be9d390488b64e6d85e39f6d450bbaab5096b55",
+      "size": [
+        441,
+        166
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q10-codiff-feathers-200pct.png",
+      "sha256": "6e2b9e3f80aea56d27887bfa29f99e2ffe07ee5ba1d4c0ba5e1a18333a000534",
+      "size": [
+        858,
+        274
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q10-codiff-wash-100pct.png",
+      "sha256": "b86f027091efba30c844fc4f5a8a991a74cf4b18fe949f277bd22c880dcca5f8",
+      "size": [
+        609,
+        228
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q10-codiff-wash-200pct.png",
+      "sha256": "b645297673c4cc94900115e84b2dd06a5e437ae2221c02ec75a45128af38919b",
+      "size": [
+        1194,
+        398
+      ]
+    },
+    {
+      "path": "assets/dad05f01051d5caaf4b8e157598cfa917c01423845ccecc286dec20a0907f2e1.png",
+      "sha256": "dad05f01051d5caaf4b8e157598cfa917c01423845ccecc286dec20a0907f2e1",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "assets/da344bc012f6c2d8a9aaec90dabe07f5393fa2c9607f06b10d53ee384e04683b.png",
+      "sha256": "da344bc012f6c2d8a9aaec90dabe07f5393fa2c9607f06b10d53ee384e04683b",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q20-swinir-full-preview.png",
+      "sha256": "b88f5de96b9197dad45dc98a24c95cb9a358bd78684e61ea2274d4dd332ac114",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q20-swinir-eye-100pct.png",
+      "sha256": "07604e0bc385fe4749226539afafb3497baaf9ade97404508b37bb2861226beb",
+      "size": [
+        324,
+        132
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q20-swinir-eye-200pct.png",
+      "sha256": "18df30c701044bed49b28483fbcddb59c915e2ee28a472929dc502ef67a5e467",
+      "size": [
+        624,
+        206
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q20-swinir-feathers-100pct.png",
+      "sha256": "f41465a13f5275fbd030c5cc40fab864827e64ff86d7019903f4bd7009cdc17d",
+      "size": [
+        441,
+        166
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q20-swinir-feathers-200pct.png",
+      "sha256": "9ef400283dce60a884304f7131400ddf015f5c578a5a3e14534a6dd1815f6d65",
+      "size": [
+        858,
+        274
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q20-swinir-wash-100pct.png",
+      "sha256": "b013873fd3dcf899e49db31a4755252f047cc8dd0e64b6ba4858e6ed5b8d6c72",
+      "size": [
+        609,
+        228
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q20-swinir-wash-200pct.png",
+      "sha256": "fe4b4b7936da6f832812092fa29c4524f76ac846a52d667a0f45bab85a108258",
+      "size": [
+        1194,
+        398
+      ]
+    },
+    {
+      "path": "assets/43e45af9c8fdcb33955ad82c592af688d41a74cd600f6d8eaba904a23287afa9.png",
+      "sha256": "43e45af9c8fdcb33955ad82c592af688d41a74cd600f6d8eaba904a23287afa9",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q20-codiff-full-preview.png",
+      "sha256": "e49f605d4118a316e751ede5af39152fe49499bb3b871829a788e606e7af28f4",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q20-codiff-eye-100pct.png",
+      "sha256": "1e404264cd80e2bc3e0ef025541e378aaebbfffa83ec972cda74a4af087af26a",
+      "size": [
+        324,
+        132
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q20-codiff-eye-200pct.png",
+      "sha256": "5652d5ac1c770d4b6ec1bd5af3a92b5a75cf907c27566ab03b1a488bbc500285",
+      "size": [
+        624,
+        206
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q20-codiff-feathers-100pct.png",
+      "sha256": "e7bcdf237b0963a5dfb98b59059c9235f95f7ba389a026b8d182867377448ebf",
+      "size": [
+        441,
+        166
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q20-codiff-feathers-200pct.png",
+      "sha256": "78fdc6ad98fb164d377953b646f7e1d4c6621a56d1f06ae5ccd20eb0e9372f85",
+      "size": [
+        858,
+        274
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q20-codiff-wash-100pct.png",
+      "sha256": "7efff6bb679013b70132de2690b7b3465283b8afba662465915230b9b52b5fb5",
+      "size": [
+        609,
+        228
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q20-codiff-wash-200pct.png",
+      "sha256": "37ab81d8a17de61af5a38719008047544864987cd9565f664bbda3c30d6a88d4",
+      "size": [
+        1194,
+        398
+      ]
+    },
+    {
+      "path": "assets/2cf3730c4259e073c3b658471c887d8c5b9d1ac2edebd9c583cb152b90a6a89b.png",
+      "sha256": "2cf3730c4259e073c3b658471c887d8c5b9d1ac2edebd9c583cb152b90a6a89b",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "assets/5cf05f35323cc471e4236066052900ff02d21cbb56cda1ce82d17db600c5778a.png",
+      "sha256": "5cf05f35323cc471e4236066052900ff02d21cbb56cda1ce82d17db600c5778a",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q40-swinir-full-preview.png",
+      "sha256": "3bb56e0e6be31b770786831fb6329ffff40a735357f92ffcd0d8cc7345d3bf30",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q40-swinir-eye-100pct.png",
+      "sha256": "bb45f6bdad429cdbe92fdf00905272e85cc28591c8c5f1470c54518b0fa6ec74",
+      "size": [
+        324,
+        132
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q40-swinir-eye-200pct.png",
+      "sha256": "db197161fd3b0af68ac03b97da7dd1b8356b9145d598c4e74186f216a93a8a01",
+      "size": [
+        624,
+        206
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q40-swinir-feathers-100pct.png",
+      "sha256": "a3a69216928960d1fc5c2e176b400b538298de90eb3720f2fe8a2816075c183e",
+      "size": [
+        441,
+        166
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q40-swinir-feathers-200pct.png",
+      "sha256": "8642f82f0d4a6c21d7ae008fb7d533cd81fe5e1c96384ee80e77118873a75c5d",
+      "size": [
+        858,
+        274
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q40-swinir-wash-100pct.png",
+      "sha256": "9b389114b5e6099dad834176fc241474c3a7af9104d462b2337e498ccc3ab240",
+      "size": [
+        609,
+        228
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q40-swinir-wash-200pct.png",
+      "sha256": "28d26962be4431f1e1aeed6317585e44e2ad10ad82eb9aa19b081ce97f7e3431",
+      "size": [
+        1194,
+        398
+      ]
+    },
+    {
+      "path": "assets/f81c5d5aa4817f6461440ed91fe160df017a5831c5d4f1a0766f175f5c869072.png",
+      "sha256": "f81c5d5aa4817f6461440ed91fe160df017a5831c5d4f1a0766f175f5c869072",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q40-codiff-full-preview.png",
+      "sha256": "e2d1a324bbbb14527b32075c63ce4a664a3404e163a049e1f53778a91abe9342",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q40-codiff-eye-100pct.png",
+      "sha256": "011103d37a5f21ad9b982aca7fc05dfc8facd58b7736d9cd8a3b6260cec01245",
+      "size": [
+        324,
+        132
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q40-codiff-eye-200pct.png",
+      "sha256": "098bdd84313fb24d12aa978b8486a9f896bf46e8d797e436b4da5135a32536ef",
+      "size": [
+        624,
+        206
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q40-codiff-feathers-100pct.png",
+      "sha256": "e2f3cfdd78d45d92b5e3448c46ae009452145714f89b77114d8eb501ac2cefba",
+      "size": [
+        441,
+        166
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q40-codiff-feathers-200pct.png",
+      "sha256": "f22ea712852adddad9ddb4c4718fa4947b83ac7b50b5bc8c733714b30f4b3267",
+      "size": [
+        858,
+        274
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q40-codiff-wash-100pct.png",
+      "sha256": "be1f188baa39e159a27dac2dbbcf7acc98e1a8f94aa72ee0349b545ea82279eb",
+      "size": [
+        609,
+        228
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q40-codiff-wash-200pct.png",
+      "sha256": "f07f7289caa0da73b0f142f45b37651793a9d378954a1d210c89835b6f2ac540",
+      "size": [
+        1194,
+        398
+      ]
+    },
+    {
+      "path": "assets/f96fe28f8e7845f1fa4216aa7624f2c782a6825e88fcb31c0038f65ec518452a.png",
+      "sha256": "f96fe28f8e7845f1fa4216aa7624f2c782a6825e88fcb31c0038f65ec518452a",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "assets/9cb1a4f5f9e620ae87b2047d3c0236f8b921273bd803ce0fad299292eac2841b.png",
+      "sha256": "9cb1a4f5f9e620ae87b2047d3c0236f8b921273bd803ce0fad299292eac2841b",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q60-swinir-full-preview.png",
+      "sha256": "b010a42eaaca1261af42a06c8662c84b0d5d82f61cced870fdee733479af7cfc",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q60-swinir-eye-100pct.png",
+      "sha256": "76a9bfd6d1cf862b4c2b958e2d201a81f1a2bbf1ba4b0d56e66a3a1dbb497fcb",
+      "size": [
+        324,
+        132
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q60-swinir-eye-200pct.png",
+      "sha256": "5159605f855fe9cb4094411287ec81f7c9c4beb6beacdd0dc14e8f1678337b99",
+      "size": [
+        624,
+        206
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q60-swinir-feathers-100pct.png",
+      "sha256": "730236b611d24516739deb7cf1e6541fe299592cacdd5143ed7861ba1c264e21",
+      "size": [
+        441,
+        166
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q60-swinir-feathers-200pct.png",
+      "sha256": "d0efac2f54e980fda0eb70d4cc13ef25cd9448421019d612fbe4fb65d0c918fd",
+      "size": [
+        858,
+        274
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q60-swinir-wash-100pct.png",
+      "sha256": "813dfe5a93f1e9b689ba764cdd3d134e49c32cff44309190ddb7182679178353",
+      "size": [
+        609,
+        228
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q60-swinir-wash-200pct.png",
+      "sha256": "ab60de5ece166fb3a1178268922d291bce33e40398a0d9f16ddd5a9754c1ae7e",
+      "size": [
+        1194,
+        398
+      ]
+    },
+    {
+      "path": "assets/d9e038a14947731459671f71b2e54a626c35dc590229f4ee879051a06a9b8f2a.png",
+      "sha256": "d9e038a14947731459671f71b2e54a626c35dc590229f4ee879051a06a9b8f2a",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q60-codiff-full-preview.png",
+      "sha256": "cdc15efba452fe23d1c05a20de78f30cac755e2f1a4a899c7f8b9f318b8bb0a5",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q60-codiff-eye-100pct.png",
+      "sha256": "aaa03a500842f95cf50326db4d5a40c6f50dac946bd0cd6ac7406e9f97ad3632",
+      "size": [
+        324,
+        132
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q60-codiff-eye-200pct.png",
+      "sha256": "91e9c537897843ee3afde50fa92b60c998f743053bb9a6f3284e4d7b7d5175a2",
+      "size": [
+        624,
+        206
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q60-codiff-feathers-100pct.png",
+      "sha256": "94a06aaf3ec6fb75ca4be063e9f26124a9cfe7cb7fb7bec4bdb82b8a0fa6fb5c",
+      "size": [
+        441,
+        166
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q60-codiff-feathers-200pct.png",
+      "sha256": "7dcbc4eb6407bcc04d682958063a0ce69d3781242e515915d268a83af6944e6d",
+      "size": [
+        858,
+        274
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q60-codiff-wash-100pct.png",
+      "sha256": "244a8a6e540e22e253192fb5d4cb3b558c13ccf58b81b322df3651df1b696ba8",
+      "size": [
+        609,
+        228
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-q60-codiff-wash-200pct.png",
+      "sha256": "f185fab85e7b311a1b62c9632a30cb8e5f9537422db6ef1daad3a7b95b4bd2f0",
+      "size": [
+        1194,
+        398
+      ]
+    },
+    {
+      "path": "assets/819645999e97a950289d8be2dfd66961ecf1983fa076f1227ba00092168ac665.png",
+      "sha256": "819645999e97a950289d8be2dfd66961ecf1983fa076f1227ba00092168ac665",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-clean-swinir-full-preview.png",
+      "sha256": "3dddd7e7ce4ddaddb2e3b7ae7ebf133d5ea11131f76532958c1299a8c70c4305",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-clean-swinir-eye-100pct.png",
+      "sha256": "593d99c951e997adac47897380d71c879e0f68825fa114df25f32c68287cb9f7",
+      "size": [
+        324,
+        132
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-clean-swinir-eye-200pct.png",
+      "sha256": "8828fdd205499f9af54407886192811fd1783720b35884d65f2a62c5cc8591a8",
+      "size": [
+        624,
+        206
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-clean-swinir-feathers-100pct.png",
+      "sha256": "086ccae9a0755412802cba5745d3ca330da02c9dbe84038a8375899af1af4256",
+      "size": [
+        441,
+        166
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-clean-swinir-feathers-200pct.png",
+      "sha256": "e2b2cea842dd12bfe2c33b3a7181fbf78880b553c55509d5223f5932a3d64207",
+      "size": [
+        858,
+        274
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-clean-swinir-wash-100pct.png",
+      "sha256": "32bfd202d03179c73294e0b66a46e30821ca48daf10f31c65ce29e3f2c9d9db5",
+      "size": [
+        609,
+        228
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-clean-swinir-wash-200pct.png",
+      "sha256": "fb264412d7f0be5b0bc09429bc63120b3c40eef9a4882f242641fea9645c8dfc",
+      "size": [
+        1194,
+        398
+      ]
+    },
+    {
+      "path": "assets/3dc234d99d55a07a1ccb54af5345571e76f2b3d2382722f0583f99ad659d0b62.png",
+      "sha256": "3dc234d99d55a07a1ccb54af5345571e76f2b3d2382722f0583f99ad659d0b62",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-clean-codiff-full-preview.png",
+      "sha256": "cdb4d87754484aac6f09aaa0360546013330c0f5ac4f7d29196dd54b9aaed187",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-clean-codiff-eye-100pct.png",
+      "sha256": "9449b5c7b24b569d7c8a1529a626efea67ed959f4d8704b64c92a9bf87ea7819",
+      "size": [
+        324,
+        132
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-clean-codiff-eye-200pct.png",
+      "sha256": "267107b60b346b66911698be513bf0586e26307aff3fec41be3a0bb5d044ebe1",
+      "size": [
+        624,
+        206
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-clean-codiff-feathers-100pct.png",
+      "sha256": "f2d5555c25853190924c12c5853085ad346317070e9f02f8a8a1447afa083cd3",
+      "size": [
+        441,
+        166
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-clean-codiff-feathers-200pct.png",
+      "sha256": "49f043343cb6706ee60e280370525abfa6071ec8f65e8fae28e019fd25db3c9f",
+      "size": [
+        858,
+        274
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-clean-codiff-wash-100pct.png",
+      "sha256": "054970118614b88222e4d77a9a100de590df72b26249dcfa1fe2bbd152615364",
+      "size": [
+        609,
+        228
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-clean-codiff-wash-200pct.png",
+      "sha256": "7668a3cc0990397606c0d40258995a85990de2112fb90be6af13962276266761",
+      "size": [
+        1194,
+        398
+      ]
+    },
+    {
+      "path": "assets/e2c1615628de0e9b550bdef2c5de185e4c894843b3fe21039fdce78171e0d35b.png",
+      "sha256": "e2c1615628de0e9b550bdef2c5de185e4c894843b3fe21039fdce78171e0d35b",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "assets/ebc4e75abc8d5a67b9e554daae39b70bab073394b3347b97f3196ed3cd20b3a1.png",
+      "sha256": "ebc4e75abc8d5a67b9e554daae39b70bab073394b3347b97f3196ed3cd20b3a1",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/realistic-band5-wavemamba-full-full-preview.png",
+      "sha256": "6da8954b9c55afce9ada7227b7555c535d21763ad30fa1d734bf9b04c42b2dbc",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/realistic-band5-wavemamba-full-texture-100pct.png",
+      "sha256": "891b45c6988999715fbebb962dbcc25b2cbee082e3bccfed88680ee99bd53445",
+      "size": [
+        1104,
+        438
+      ]
+    },
+    {
+      "path": "comparisons/realistic-band5-wavemamba-full-texture-200pct.png",
+      "sha256": "5452e6be87db6cd49c85bcabe74fe82c38e4c019b7651c054485555446a6c697",
+      "size": [
+        2184,
+        818
+      ]
+    },
+    {
+      "path": "comparisons/realistic-band5-wavemamba-full-gradient-100pct.png",
+      "sha256": "3723f260e9d707dec0a8073bfaeb9eeb03a699e5b5092f45ff384048a39bc0de",
+      "size": [
+        1176,
+        442
+      ]
+    },
+    {
+      "path": "comparisons/realistic-band5-wavemamba-full-gradient-200pct.png",
+      "sha256": "89b8732f2304a3a5ebaf42566180e5e2a7f56fcde856433c7891188f40aa9bfd",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "assets/074f124560c13a385a6ac1680c7d9b0c30849e9d30a5fc848ec028b7004963ab.png",
+      "sha256": "074f124560c13a385a6ac1680c7d9b0c30849e9d30a5fc848ec028b7004963ab",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "assets/9ef395b005edff56a51847b3c35d1a97b9ea06d5f669ee72356851aa6c23b2a0.png",
+      "sha256": "9ef395b005edff56a51847b3c35d1a97b9ea06d5f669ee72356851aa6c23b2a0",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/realistic-band4-wavemamba-full-full-preview.png",
+      "sha256": "73d3ffc2d0a13480beeb069692e99d61a5a8c3af287ec8a97780889c0c4c3316",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/realistic-band4-wavemamba-full-texture-100pct.png",
+      "sha256": "dcc1b9fee37cee4933d8774983d0fd4b53278753827f863eead919a987f8876e",
+      "size": [
+        1104,
+        438
+      ]
+    },
+    {
+      "path": "comparisons/realistic-band4-wavemamba-full-texture-200pct.png",
+      "sha256": "59ecfbb2263e3409530ee457cf491673110f2dc9d9931bddd7da4ec38491cc28",
+      "size": [
+        2184,
+        818
+      ]
+    },
+    {
+      "path": "comparisons/realistic-band4-wavemamba-full-gradient-100pct.png",
+      "sha256": "e1ae72cd458dc169f43363664fdc0086783d4308aea081e6327bc7281ffbce2b",
+      "size": [
+        1176,
+        442
+      ]
+    },
+    {
+      "path": "comparisons/realistic-band4-wavemamba-full-gradient-200pct.png",
+      "sha256": "8d6e797fee95a50cbc579b1880fc72e24318b65568a9d1560c43542006366a1b",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "assets/3d60e2d918389d6f651c967496f8ff2b9c4f02dcc5aac0024674bcd105aea8b8.png",
+      "sha256": "3d60e2d918389d6f651c967496f8ff2b9c4f02dcc5aac0024674bcd105aea8b8",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "comparisons/realistic-clean-wavemamba-full-full-preview.png",
+      "sha256": "49c96812e966cd58dc6e58bd22b3eec51a5640da28ff14aa69d03b20d12473b1",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/realistic-clean-wavemamba-full-texture-100pct.png",
+      "sha256": "c455751c7658a8b8b1401ce86c27e8d2b3f3705993dbbb9f7adecf7db91b00d7",
+      "size": [
+        1104,
+        438
+      ]
+    },
+    {
+      "path": "comparisons/realistic-clean-wavemamba-full-texture-200pct.png",
+      "sha256": "ba41f88945c471468680946fad8f30a7747484baf27bcd74b56c04744b208031",
+      "size": [
+        2184,
+        818
+      ]
+    },
+    {
+      "path": "comparisons/realistic-clean-wavemamba-full-gradient-100pct.png",
+      "sha256": "45f731db01895dd48169df9daa588eb25a5a4834228a7ba84b907dc36cc296eb",
+      "size": [
+        1176,
+        442
+      ]
+    },
+    {
+      "path": "comparisons/realistic-clean-wavemamba-full-gradient-200pct.png",
+      "sha256": "c5de7f0675283419d6badff050895febf74cdcfe6a069a295cd0b9f8676b50df",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "assets/ae2306dab55c8b386d12f3bcbe05832ea0b7c8ca5472d743156fa84b6832e2cc.png",
+      "sha256": "ae2306dab55c8b386d12f3bcbe05832ea0b7c8ca5472d743156fa84b6832e2cc",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "assets/080b20d605b69a8bf8ff250b1b0e095ed87ea16ee56dc7430d4ded876968a834.png",
+      "sha256": "080b20d605b69a8bf8ff250b1b0e095ed87ea16ee56dc7430d4ded876968a834",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-band5-wavemamba-full-full-preview.png",
+      "sha256": "c51f5a1dd78e50aea5c573056d4a5642619973c9119bdc5b1015c5a373729b1b",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-band5-wavemamba-full-feathers-100pct.png",
+      "sha256": "af0fd7227eb521b55a0127f0dd057b79353b34401e3d9061b8d469f20c53d1d1",
+      "size": [
+        441,
+        166
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-band5-wavemamba-full-feathers-200pct.png",
+      "sha256": "c126156b11bae5bc6eaecc2c001ef91db56e3d0f6a4d76292b6a2abda4db7f07",
+      "size": [
+        858,
+        274
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-band5-wavemamba-full-wash-100pct.png",
+      "sha256": "77d86eca31110a5e7b1d866299c100fae5a89be84f039db2212232071516b0fd",
+      "size": [
+        609,
+        228
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-band5-wavemamba-full-wash-200pct.png",
+      "sha256": "7a233cb0da76fc9c44d9615fd90d77b8df7178cc39fc2ab776693c820719eb2d",
+      "size": [
+        1194,
+        398
+      ]
+    },
+    {
+      "path": "assets/9cae72d8bf7b9a42a40351c60a618c13e6eaba90f056e23fc919348bfe567a00.png",
+      "sha256": "9cae72d8bf7b9a42a40351c60a618c13e6eaba90f056e23fc919348bfe567a00",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-clean-wavemamba-full-full-preview.png",
+      "sha256": "2045ec1b47d66f1251ab62a2028f7833ff03db92b66c533e83a0249896e54a76",
+      "size": [
+        2328,
+        826
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-clean-wavemamba-full-feathers-100pct.png",
+      "sha256": "76ff1e66e4e0dae457b14f58ea98b3ac17e179dfd5695b898d20d84ac896088f",
+      "size": [
+        441,
+        166
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-clean-wavemamba-full-feathers-200pct.png",
+      "sha256": "8df3a9c4df6bca3e303e4e2e346ab2b33e4f1c9782ae120b1f6b567328b170ba",
+      "size": [
+        858,
+        274
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-clean-wavemamba-full-wash-100pct.png",
+      "sha256": "00f0b0433d72b00f19e9a97ab243e52d9be45f3a023337c7072a06ec157a3d7c",
+      "size": [
+        609,
+        228
+      ]
+    },
+    {
+      "path": "comparisons/watercolor-clean-wavemamba-full-wash-200pct.png",
+      "sha256": "87975245f6bc219ef1d22ba66e395b14ffdb2a41fad293f94cdcf240883bde38",
+      "size": [
+        1194,
+        398
+      ]
+    }
+  ],
+  "quality_verdict": "Not inferred from packaging checks",
+  "browser_interaction": "not measured"
+}
